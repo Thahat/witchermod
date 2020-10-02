@@ -1,0 +1,70 @@
+{
+   "type": "index",
+   "music": {
+	  "kingdoms": {
+         "witchermod:kingdoms:witcher_kingdom": {
+            "tier_to_day_music_track": {
+               "idle_day_music_tier_1": {
+                  "track"  : [
+                     "witchermod:music:kaer_morhen",
+					 "witchermod:music:the_vagebond"
+                  ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               },
+               "idle_day_music_tier_2": {
+                  "track"  : [
+                     "witchermod:music:magic_cave",
+                     "witchermod:music:after_the_storm",
+                     "witchermod:music:the_last_wish",
+                  ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               },
+               "idle_day_music_tier_3": {
+                  "track"  : [
+                     "witchermod:music:kaer_morhen",
+					 "witchermod:music:the_vagebond"
+                  ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               }
+            },
+            "tier_to_night_music_track": {
+               "idle_night_music_tier_1": {
+                  "track"  : [
+                     "witchermod:music:magic_cave",
+                     "witchermod:music:after_the_storm",
+                     "witchermod:music:the_last_wish"
+					 ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               },
+               "idle_night_music_tier_2": {
+                  "track"  : [
+                     "witchermod:music:kaer_morhen",
+					 "witchermod:music:the_vagebond"
+                  ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               },
+               "idle_night_music_tier_3": {
+                  "track"  : [
+                     "witchermod:music:magic_cave",
+                     "witchermod:music:after_the_storm",
+                     "witchermod:music:the_last_wish"
+                  ],
+                  "loop"   : false,
+                  "fade_in": 1000,
+                  "volume" : 60
+               }
+            }
+         }
+      }
+   }
+}

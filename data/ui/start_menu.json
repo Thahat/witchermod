@@ -1,0 +1,152 @@
+{
+   "town_menu": {
+		"icon": "/witchermod/ui/game/start_menu/images/town.png"
+	},
+	"citizen_manager": {
+		"icon": "/witchermod/ui/game/start_menu/images/citizens.png"
+	},
+	"custom_building_new": {
+		"icon": "/witchermod/ui/game/start_menu/images/build.png"
+	},
+	"place_menu": {
+		"icon": "/witchermod/ui/game/start_menu/images/place_item.png",
+		"items": {
+			"place_item": {
+				"icon": "/witchermod/ui/game/start_menu/images/place_item.png"
+			},
+			"build_ladder": {
+				"icon": "/witchermod/ui/game/start_menu/images/build_ladder.png"
+			}
+		}
+	},
+	"harvest_menu": {
+		"icon": "/witchermod/ui/game/start_menu/images/harvest.png",
+		"items": {
+			"harvest": {
+			"icon": "/witchermod/ui/game/start_menu/images/harvest_cmd.png"
+			},
+			"mine_basic": {
+			"icon": "/witchermod/ui/game/start_menu/images/mine.png"
+			},
+			"mine_custom": {
+			"icon": "/witchermod/ui/game/start_menu/images/mine_block.png"
+			},
+			"cancel_task": {
+			"icon": "/witchermod/ui/game/start_menu/images/cancel.png"
+			},
+			"loot_item": {
+			"icon": "/witchermod/ui/game/start_menu/images/loot.png"
+			},
+			"clear_item": {
+			 "icon": "/witchermod/ui/game/start_menu/images/clear.png"
+			}
+		}
+	},
+	"zone_menu": { 
+	  "icon": "/witchermod/ui/game/start_menu/images/zone.png",
+      "items": {
+        "create_stockpile": {
+			"icon": "/witchermod/ui/game/start_menu/images/zone_stockpile.png"
+		},
+		"mixintypes": {
+			"create_pasture": "remove"
+		},
+		"create_farm": {
+            "icon": "/witchermod/ui/game/start_menu/images/zone_farm.png",
+			"required_job": "stonehearth:jobs:worker",
+            "required_job_text": "i18n(witchermod:ui.game.menu.zone_menu.items.create_farm.required_job_text)"
+        },
+		 "create_trapping_grounds": {
+            "name": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_trapping_grounds.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_trapping_grounds.description)",
+            "required_job": "witchermod:jobs:initiate",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_trapping_grounds.required_job_text)",
+            "class": "button",
+            "icon": "/witchermod/ui/game/start_menu/images/zone_trap.png",
+            "sticky": true,
+            "hotkey_action": "zone:trapping"
+        }
+      }
+   },
+   "crafter_menu": {
+      "icon": "/witchermod/ui/game/start_menu/images/dock_crafters.png",
+	  "items": {
+         "acolyte": {
+            "name": "Acolyte Crafting Menu",
+            "description": "Crafting recipes",
+            "class": "button",
+            "required_job": "stonehearth:jobs:worker",
+            "required_job_text": "Requires an Acolyte",
+            "icon": "/witchermod/jobs/worker/images/acolyte_menu_icon.png",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:carpenter"
+         },
+		 "blacksmith": {
+				"icon": "/witchermod/jobs/blacksmith/images/blacksmith_menu_icon.png"
+		},
+         "mage": {
+            "name": "i18n(witchermod:ui.game.menu.crafter_menu.items.herbalist.display_name)",
+            "description": "i18n(witchermod:ui.game.menu.crafter_menu.items.herbalist.description)",
+            "class": "button",
+            "required_job": "witchermod:jobs:mage",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.required_job_text)",
+            "icon": "/witchermod/jobs/mage/images/mage_menu_icon.png",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:herbalist"
+         },
+		 "herbalist": {
+            "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.description)",
+            "class": "button",
+            "required_job": "stonehearth:jobs:herbalist",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.required_job_text)",
+            "icon": "/witchermod/jobs/herbalist/images/herbalist_menu_icon.png",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:herbalist"
+         },
+		 "cook": {
+				"icon": "/witchermod/jobs/cook/images/cook_menu_icon.png"
+		 },
+		  "blacksmith": {
+				"icon": "/witchermod/jobs/blacksmith/images/blacksmith_menu_icon.png"
+		 },
+         "mixintypes": {
+            "carpenter": "remove",
+            "mason": "remove",
+            "potter": "remove",
+            "weaver": "remove",
+            "geomancer": "remove",
+			"engineer": "remove"
+         }
+      }
+   },
+   "fight_menu": {
+		"icon": "/witchermod/ui/game/start_menu/images/fight.png",
+		"items": {
+			"town_alert": {
+				"icon": "/witchermod/ui/game/start_menu/images/town_defense.png"
+			},
+			"party_1" : {
+				"icon" : "/witchermod/ui/game/start_menu/images/party_1.png"
+			},
+			"party_2" : {
+				"icon" : "/witchermod/ui/game/start_menu/images/party_2.png"
+			},
+			"party_3" : {
+				"icon" : "/witchermod/ui/game/start_menu/images/party_3.png"
+			},
+			"party_4" : {
+				"icon" : "/witchermod/ui/game/start_menu/images/party_4.png"
+			}
+		}
+	},
+	"multiplayer_menu": {
+		"icon": "/witchermod/ui/game/start_menu/images/multiplayer_menu.png"
+	},
+	"bulletin_manager": {
+		"icon": "/witchermod/ui/game/start_menu/images/manage_bulletins.png"
+	}
+}

@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(witchermod:data.buffs.quen.quen.display_name)",
+   "description": "i18n(witchermod:data.buffs.quen.quen.description)",
+   "icon": "file(quen_buff.png)",
+   "duration": "40m",
+   "persistent": true,
+   "modifiers": {
+      "multiplicative_armor_modifier": {
+         "add": 0.4
+      }
+   },
+   "cooldown_buff": "witchermod:buffs:quen:cooldown",
+   "effect": "/witchermod/data/effects/initiate/quen_visual.json"
+}

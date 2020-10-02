@@ -1,0 +1,13 @@
+{
+	"jobs": {
+		"witchermod:jobs:initiate": {
+			"description": "witchermod:jobs:initiate:disabled"
+		},
+		"witchermod:jobs:mage": {
+			"description": "witchermod:jobs:mage:disabled"
+		},
+		"witchermod:jobs:witcher": {
+			"description": "witchermod:jobs:witcher:disabled"
+		}
+	}
+}

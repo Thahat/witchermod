@@ -1,0 +1,106 @@
+{
+   "mixins": [
+	"stonehearth:mixins:item_properties",
+	"stonehearth_ace:mixins:weapons:twohanded_open_wounds"
+   ],
+   "type": "entity",
+   "components": {
+	  "render_info": {
+         "scale": 0.07
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_sword_witcher_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_sword_witcher_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+		 "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 28,
+         "roles": ["initiate_job","witcher_job"],
+         "required_job_level": 0,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+		 "equipment_types": [
+            "mainhand"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 28,
+         "reach": 1.5
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         },
+		 {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 2
+         }
+      ],
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_parry",
+            "effect": "combat_1h_parry",
+            "effect": "combat_1h_parry",
+            "active_frame": 4,
+            "cooldown": 8000,
+            "priority": 0,
+            "chance_of_success": 0.55
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 25,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.weapons.steel_sword_witcher.display_name)",
+         "description": "i18n(witchermod:entities.weapons.steel_sword_witcher.description)",
+         "icon": "file(steel_sword_witcher.png)",
+         "category": "weapons",
+         "material_tags": [
+            "steel",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon",
+			"nordling_made"
+         ]
+      }
+   }
+}

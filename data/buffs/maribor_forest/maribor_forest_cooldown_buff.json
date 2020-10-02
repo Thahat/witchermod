@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.maribor_forest.cooldown.display_name)",
+   "description": "i18n(witchermod:data.buffs.maribor_forest.cooldown.description)",
+   "icon": "file(maribor_forest_cooldown_buff.png)",
+   "duration": "40m",
+   "persistent": true,
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+   }
+}

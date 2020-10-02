@@ -1,0 +1,69 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:light_armor_torso",
+      "stonehearth_ace:mixins:armor:resistance:torso:high"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(cat_school_armor_grandmaster.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(cat_school_armor_grandmaster_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(cat_school_armor_grandmaster_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 7,
+         "roles": [
+            "witcher_job"
+         ],
+         "required_job_level": 0,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 7
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 60,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.armor.cat_school_armor_grandmaster.display_name)",
+         "description": "i18n(witchermod:entities.armor.cat_school_armor_grandmaster.description)",
+         "icon": "file(cat_school_armor_grandmaster.png)",
+         "category": "armor",
+         "material_tags": [
+            "witchermod_made",
+            "iron",
+            "armor",
+            "light_armor",
+            "iron_chainmail",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

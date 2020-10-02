@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(basic_spellbook_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.weapons.basic_spellbook.display_name)",
+         "description": "i18n(witchermod:entities.weapons.basic_spellbook.description)",
+         "icon": "file(basic_spellbook.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

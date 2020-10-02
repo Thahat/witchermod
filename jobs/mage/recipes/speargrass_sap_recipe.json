@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.speargrass_sap_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.speargrass_sap_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.speargrass_sap_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/speargrass_sap/speargrass_sap.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "herb green resource",
+         "count": 2
+      },
+	  {
+         "material": "herb blue bitter resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:speargrass_sap"
+      }
+   ]
+}

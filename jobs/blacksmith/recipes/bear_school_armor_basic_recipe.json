@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.bear_school_armor_basic.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.bear_school_armor_basic.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.bear_school_armor_basic.flavor)",
+   "portrait": "/witchermod/entities/armor/bear_school_armor_basic/bear_school_armor_basic.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:armor:bear_school_armor_basic"
+      }
+   ]
+}

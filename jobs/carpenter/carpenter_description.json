@@ -1,0 +1,8 @@
+{
+   "type": "job",
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   },
+   "mixins": "stonehearth:jobs:carpenter",
+   "enabled": false
+}

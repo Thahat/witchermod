@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "scale": 0.08
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(crystal_ball.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.decoration.crystal_ball_ghost.display_name)",
+         "description": "i18n(witchermod:entities.decoration.crystal_ball_ghost.description)",
+         "icon": "file(crystal_ball.png)",
+         "category": "decoration",
+         "material_tags": [
+            "crystal",
+            "decoration",
+            "stockpile_decoration",
+            "crafted"
+         ]
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.wildrye_juice_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.wildrye_juice_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.wildrye_juice_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/wildrye_juice/wildrye_juice.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "herb red aromatic resource",
+         "count": 3
+      },
+	  {
+         "material": "herb white bitter resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:wildrye_juice"
+      }
+   ]
+}

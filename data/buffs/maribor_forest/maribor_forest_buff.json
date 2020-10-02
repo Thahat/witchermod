@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.maribor_forest.maribor_forest_buff.display_name)",
+   "description": "i18n(witchermod:data.buffs.maribor_forest.maribor_forest_buff.description)",
+   "effect": "stonehearth:effects:buff:hothead",
+   "icon": "file(maribor_forest_buff.png)",
+   "duration": "40m",
+   "persistent": false,
+   "cooldown_buff": "witchermod:buffs:maribor_forest:cooldown",
+   "modifiers": {
+      "stamina": {
+         "add": 200
+      }
+   }
+}

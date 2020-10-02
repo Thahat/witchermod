@@ -1,0 +1,69 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:light_armor_helmet",
+      "stonehearth_ace:mixins:armor:resistance:helmet:average"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(stone_talisman.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(stone_talisman_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(stone_talisman_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 2,
+         "required_job_level": 0,
+         "roles": [
+            "footman_job",
+            "initiate_job",
+            "witcher_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 22,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.armor.stone_talisman.display_name)",
+         "description": "i18n(witchermod:entities.armor.stone_talisman.description)",
+         "icon": "file(stone_talisman.png)",
+         "category": "armor",
+         "material_tags": [
+            "leather",
+            "armor",
+            "helmet",
+            "light_armor",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

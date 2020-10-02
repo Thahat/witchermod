@@ -1,0 +1,8 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:mason",
+   "enabled": false,
+   "crafter": {
+      "recipe_list": "/witchermod/jobs/mason/recipes/recipes.json"
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_enhanced.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_enhanced.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_enhanced.flavor)",
+   "portrait": "/witchermod/entities/armor/manticore_school_armor_enhanced/manticore_school_armor_enhanced.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:armor:manticore_school_armor_enhanced"
+      }
+   ]
+}

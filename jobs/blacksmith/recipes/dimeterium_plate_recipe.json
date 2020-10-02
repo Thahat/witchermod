@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 25,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.dimeterium_plate_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.dimeterium_plate_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.dimeterium_plate_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/dimeterium_plate/dimeterium_plate.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "witchermod:refined:dimeterium_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:dimeterium_plate"
+      },
+      {
+         "item": "witchermod:refined:dimeterium_plate"
+      }
+   ]
+}

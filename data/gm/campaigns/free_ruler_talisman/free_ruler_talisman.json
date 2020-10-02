@@ -1,0 +1,11 @@
+{
+	"can_start": {
+      "test_witcher_kingdom": {
+         "kingdom_check": {
+            "type": "deny_if",
+            "item": "kingdom",
+            "value": "witchermod:kingdoms:witcher_kingdom"
+         }
+      }
+   }
+}

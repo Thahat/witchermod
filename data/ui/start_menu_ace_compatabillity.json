@@ -1,0 +1,56 @@
+{
+	"place_menu": {
+		"items": {
+			"build_well": {
+				"icon": "/witchermod/ui/game/start_menu/images/build_well.png"
+			},
+			"box_cancel_placement": {
+				"icon": "/witchermod/ui/game/start_menu/images/box_cancel_placement.png"
+			},
+			"build_fence": {
+				"icon": "/witchermod/ui/game/start_menu/images/build_fence.png"
+			}
+		}
+	},
+	"harvest_menu": {
+		"items": {
+			"box_harvest_and_replant": {
+				"icon": "/witchermod/ui/game/start_menu/images/harvest_and_replant_cmd.png"
+			}
+		}
+	},
+	"zone_menu": {
+      "items": {
+         "create_farm": {
+		    "icon": "/witchermod/ui/game/start_menu/images/zone_farm.png",
+			"items": {
+				"create_field_farm": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_farm.png"
+				},
+				"create_field_bush_farm": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_bush_farm.png"
+				},
+				"create_field_decorative_flowers": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_decorative_flowers.png"
+				},
+				"create_field_orchard": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_orchard.png"
+				},
+				"create_field_treefarm": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_treefarm.png"
+				},
+				"create_field_underfarm": {
+					"icon": "/witchermod/ui/game/start_menu/images/zone_underfarm.png"
+				}
+			}
+		}
+	  }
+	},
+	"crafter_menu": {
+		"items": {
+			"brewer":{
+				"icon": "/witchermod/jobs/brewer/images/brewer_menu_icon.png"
+			}
+		}
+	}
+}

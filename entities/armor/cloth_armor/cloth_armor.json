@@ -1,0 +1,68 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:light_armor_torso",
+      "stonehearth_ace:mixins:armor:resistance:torso:low"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "models": [
+               "file(cloth_armor.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "models": [
+               "file(cloth_armor_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(cloth_armor_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 0,
+         "roles": [
+            "initiate_job",
+            "witcher_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 4
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 23,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.armor.cloth_armor.display_name)",
+         "description": "i18n(witchermod:entities.armor.cloth_armor.description)",
+         "icon": "file(cloth_armor.png)",
+         "category": "armor",
+         "material_tags": [
+            "witchermod_made",
+            "armor",
+            "light_armor",
+            "cloth",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

@@ -1,0 +1,11 @@
+{
+	"craftable_recipes": {
+		"crafting_materials": {
+         "recipes": {
+            "leather_strip": {
+               "recipe": "file(leather_strip_recipe.json)"
+            }
+         }
+      }
+	}
+}

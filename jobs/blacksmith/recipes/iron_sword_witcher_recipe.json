@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.iron_sword_witcher.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.iron_sword_witcher.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.iron_sword_witcher.flavor)",
+   "portrait": "/witchermod/entities/weapons/iron_sword_witcher/iron_sword_witcher.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:weapons:iron_sword_witcher"
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+{
+   "mixins": "/stonehearth/entities/humans/male/male_customizations.json",
+   "styles": {
+      "facial_hair": {
+         "values": {
+         }
+      },
+      "head_hair": {
+         "type": "model",
+         "values": { 
+			"mixintypes" :{
+				"male_hair_old_2": "override"
+			},
+			"male_hair_old_2": {
+               "file": "file(hair_braid.qb)"
+            }
+         }
+      }
+   }
+}

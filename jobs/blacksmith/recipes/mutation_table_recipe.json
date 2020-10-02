@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.mutation_table.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.mutation_table.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.mutation_table.flavor)",
+   "portrait": "/witchermod/entities/furniture/mutation_table/mutation_table.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:furniture:mutation_table"
+      }
+   ]
+}

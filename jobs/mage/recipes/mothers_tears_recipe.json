@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.mothers_tears_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.mothers_tears_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.mothers_tears_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/mothers_tears/mothers_tears.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "herb white bitter resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:mothers_tears"
+      }
+   ]
+}

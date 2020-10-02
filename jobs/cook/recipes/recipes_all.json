@@ -1,0 +1,11 @@
+{
+	"craftable_recipes": {
+		"food": {
+			"recipes": {
+				"baked_potato": {
+					"recipe": "file(baked_potato_recipe.json)"
+				}
+			}
+		}
+	}
+}

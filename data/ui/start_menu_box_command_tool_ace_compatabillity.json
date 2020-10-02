@@ -1,0 +1,19 @@
+{
+   "place_menu": {
+	  "items": {
+         "box_move": {
+            "icon": "/witchermod/data/ui/box_selection_move_menu.png"
+         },
+         "box_undeploy": {
+            "icon": "/witchermod/data/ui/box_selection_undeploy_menu.png"
+         }
+      }
+   },
+   "harvest_menu": {
+	"items": {
+		"box_harvest_and_replant": {
+			"icon": "/witchermod/data/ui/harvest_and_replant_cmd.png"
+		}
+	}
+   }
+}

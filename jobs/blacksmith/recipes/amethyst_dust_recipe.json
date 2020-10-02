@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.mason.recipes.amethyst_dust_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mason.recipes.amethyst_dust_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mason.recipes.amethyst_dust_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/amethyst_dust/amethyst_dust.png",
+   "level_requirement": 2,
+   "workshop": "stonehearth:mason:workbench",
+   "ingredients": [
+      {
+         "uri": "witchermod:resources:gems:amethyst",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:amethyst_dust"
+      },
+      {
+         "item": "witchermod:refined:amethyst_dust"
+      }
+   ]
+}

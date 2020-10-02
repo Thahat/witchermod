@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 20,
+   "recipe_name": "i18n(witchermod:jobs.carpenter.recipes.training_dummy_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.carpenter.recipes.training_dummy_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.carpenter.recipes.training_dummy_recipe.flavor)",
+   "portrait": "/witchermod/entities/gizmos/training_dummy/training_dummy.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "fiber resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:training_dummy"
+      }
+   ]
+}

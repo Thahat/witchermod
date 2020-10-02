@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_grandmaster.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_grandmaster.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.manticore_school_armor_grandmaster.flavor)",
+   "portrait": "/witchermod/entities/armor/manticore_school_armor_grandmaster/manticore_school_armor_grandmaster.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:armor:manticore_school_armor_grandmaster"
+      }
+   ]
+}

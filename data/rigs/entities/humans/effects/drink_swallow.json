@@ -1,0 +1,32 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "emote_shout.json",
+			"speed": 1.5,
+         "loop": false,
+         "response_frame": 20
+      },
+		"hide_mainhand" : {
+         "type": "hide_bone",
+         "start_time": 0,
+         "end_time": 0,
+         "bone": "mainHand"
+      },
+		"hide_shield" : {
+         "type": "hide_bone",
+         "start_time": 0,
+         "end_time": 0,
+         "bone": "leftArm"
+      },
+		"grab_potion" : {
+         "type": "attach_item_effect",
+         "start_time": 0,
+         "end_time": 0,
+         "item": "witchermod:potions:swallow_model",
+         "bone": "offHand"
+      }
+   }
+}

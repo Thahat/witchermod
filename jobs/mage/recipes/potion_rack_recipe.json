@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.potion_rack_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.potion_rack_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.potion_rack_recipe.flavor)",
+   "portrait": "/witchermod/entities/decoration/potion_rack/potion_rack.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "witchermod:refined:paper",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:decoration:potion_rack"
+      }
+   ]
+}

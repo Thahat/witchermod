@@ -1,0 +1,83 @@
+{
+   "type": "index",
+   "groups": {
+      "food_preference": {
+         "stonehearth:traits:carnivore": {},
+         "stonehearth:traits:herbivore": {},
+         "stonehearth:traits:gourmand": {},
+         "stonehearth:traits:goat": {}
+      },
+      "temperament": {
+         "stonehearth:traits:excitable": {},
+         "stonehearth:traits:stoic": {
+            "excludes": {
+               "stonehearth:traits:hothead": true
+            }
+         }
+      },
+      "outlook": {
+         "stonehearth:traits:optimistic": {},
+         "stonehearth:traits:pessimistic": {}
+      },
+      "passion_jobs": {
+         "stonehearth:traits:passion_blacksmith": {},
+         "stonehearth:traits:passion_cook": {},
+         "stonehearth:traits:passion_herbalist": {},
+         "stonehearth:traits:passion_worker": {},
+		 "witchermod:traits:passion_mage": {},
+		 "witchermod:traits:passion_initiate": {},
+		 "witchermod:traits:passion_witcher": {}
+      },
+      "build": {
+         "stonehearth:traits:featherweight": {},
+         "stonehearth:traits:pack_mule": {}
+      },
+      "talkative": {
+         "stonehearth:traits:gregarious": {},
+         "stonehearth:traits:loner": {}
+      }
+   },
+   "traits": {
+      "stonehearth:traits:animal_companion": {
+         "excludes": {
+            "stonehearth:traits:callous": true
+         }
+      },
+      "stonehearth:traits:courageous": {},
+      "stonehearth:traits:callous": {
+         "excludes": {
+            "stonehearth:traits:animal_companion": true,
+            "stonehearth:traits:empathetic": true
+         }
+      },
+      "stonehearth:traits:cultist": {},
+      "stonehearth:traits:heart_of_a_crafter": {
+         "excludes": {
+            "stonehearth:traits:passion_worker": true
+         }
+      },
+      "stonehearth:traits:hothead": {
+         "excludes": {
+            "stonehearth:traits:stoic": true
+         }
+      },
+      "stonehearth:traits:night_owl": {},
+      "stonehearth:traits:glutton": {},
+      "stonehearth:traits:green_thumb": {},
+      "stonehearth:traits:jokester": {},
+      "stonehearth:traits:charismatic": {},
+      "stonehearth:traits:professor": {},
+      "stonehearth:traits:empathetic": {
+         "excludes": {
+            "stonehearth:traits:callous": true
+         }
+      },
+      "stonehearth:traits:opinionated": {},
+      "stonehearth:traits:magnificent_beard": {
+         "immigration_only": true,
+         "gender": "male"
+      },
+      "stonehearth:traits:pluviophile": {},
+      "stonehearth:traits:storm_chaser": {}
+   }
+}

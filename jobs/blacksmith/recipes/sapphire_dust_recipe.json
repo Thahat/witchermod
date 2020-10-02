@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.mason.recipes.sapphire_dust_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mason.recipes.sapphire_dust_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mason.recipes.sapphire_dust_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/sapphire_dust/sapphire_dust.png",
+   "level_requirement": 2,
+   "workshop": "stonehearth:mason:workbench",
+   "ingredients": [
+      {
+         "uri": "witchermod:resources:gems:sapphire",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:sapphire_dust"
+      },
+      {
+         "item": "witchermod:refined:sapphire_dust"
+      }
+   ]
+}

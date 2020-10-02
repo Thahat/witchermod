@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.kaer_morhen_armor.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.kaer_morhen_armor.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.kaer_morhen_armor.flavor)",
+   "portrait": "/witchermod/entities/armor/kaer_morhen_armor/kaer_morhen_armor.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:armor:kaer_morhen_armor"
+      }
+   ]
+}

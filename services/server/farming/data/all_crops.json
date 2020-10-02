@@ -1,0 +1,20 @@
+{
+	  "type" : "index",
+      "crops": {
+	  "potatoes": {
+         "crop_type": "witchermod:crops:potato_crop",
+         "ordinal": 2.1,
+         "level_requirement": 0
+	  },
+	   "cabbage": {
+         "crop_type": "witchermod:crops:cabbage_crop",
+         "ordinal": 2.11,
+         "level_requirement": 0
+	  },
+	  "onion": {
+         "crop_type": "witchermod:crops:onion_crop",
+         "ordinal": 3.2,
+         "level_requirement": 0
+      }
+   }
+}

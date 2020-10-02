@@ -1,0 +1,40 @@
+{
+   "type": "effect",
+   "tracks": {
+      "blue_bright": {
+         "type": "cubemitter",
+         "cubemitter": "/witchermod/data/horde/particles/place_of_power/place_of_power_aard.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.07, "y": 4.47, "z": -0.1,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+	  "blue": {
+         "type": "cubemitter",
+         "cubemitter": "/witchermod/data/horde/particles/place_of_power/place_of_power_aard2.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0.07, "y": 4.47, "z": -0.1,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 70,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "light": {
+         "type": "light",
+         "light": "/witchermod/data/horde/animatedlights/fire/place_of_power/place_of_power.animatedlight.json",
+         "transforms": { "x": 0, "y": 4.5, "z": 0 },
+         "shadows": true
+      }
+   }
+}

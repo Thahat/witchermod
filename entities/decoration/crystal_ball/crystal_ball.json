@@ -1,0 +1,44 @@
+{
+   "type": "entity",
+   "mixins": "file(crystal_ball_ghost.json)",
+   "components": {
+      "render_info": {
+         "color_map": "witchermod:color_map:glass",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/glass_material_map.json"
+         ],
+         "scale": 0.08
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(crystal_ball_iconic.json)",
+         "ghost_form": "file(crystal_ball_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 12
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

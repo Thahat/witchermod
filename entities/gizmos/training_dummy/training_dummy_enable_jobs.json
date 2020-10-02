@@ -1,0 +1,9 @@
+{
+	"components": {
+		"stonehearth_ace:training_dummy": {
+         "allowed_jobs": {
+            "witchermod:jobs:initiate": 6
+         }
+      }
+	}
+}

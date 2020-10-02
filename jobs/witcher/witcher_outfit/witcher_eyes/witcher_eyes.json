@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+			 "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+				     "file(witcher_eyes.qb)"
+                  ]
+               }
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(witcher_eyes_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 4,
+         "roles": ["witcher"],
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 4
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:jobs.witcher.witcher_eyes.display_name)",
+         "description": "i18n(witchermod:jobs.witcher.witcher_eyes.description)",
+         "icon": "file(witcher_eyes.png)",
+         "is_item": true,
+         "category": "armor",
+         "material_tags":["biological"]
+      }
+   }
+}

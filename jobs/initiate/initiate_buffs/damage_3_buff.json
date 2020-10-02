@@ -1,0 +1,11 @@
+{
+   "type": "buff",
+   "display_name": "i18n(witchermod:jobs.initiate.initiate_buffs.damage_3_buff.display_name)",
+   "description": "i18n(witchermod:jobs.initiate.initiate_buffs.damage_3_buff.description)",
+   "icon": "file(damage_3_buff.png)",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.6
+      }
+   }
+}

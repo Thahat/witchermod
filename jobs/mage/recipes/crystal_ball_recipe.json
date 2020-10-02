@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.crystal_ball_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.crystal_ball_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.crystal_ball_recipe.flavor)",
+   "portrait": "/witchermod/entities/decoration/crystal_ball/crystal_ball.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "ore resource",
+         "count": 1
+      },
+      {
+         "material": "gem resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:decoration:crystal_ball"
+      }
+   ]
+}

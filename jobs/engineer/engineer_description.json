@@ -1,0 +1,5 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:engineer",
+   "enabled": false
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.alchemy_kit_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.alchemy_kit_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.alchemy_kit_recipe.flavor)",
+   "portrait": "/witchermod/entities/decoration/alchemy_kit/alchemy_kit.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "ore resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:decoration:alchemy_kit"
+      }
+   ]
+}

@@ -1,0 +1,22 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(witchermod:data.buffs.blade_oil.display_name)",
+   "description": "i18n(witchermod:data.buffs.blade_oil.description)",
+   "icon": "file(blade_oil.png)",
+   "duration": "20m",
+   "repeat_add_action": "renew_duration",
+   "effect": "stonehearth:effects:debuff_added:undead_infection",
+   "modifiers": {
+      "willpower": {
+         "multiply": 0
+      }
+   },
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": -10,
+      "pulse": "5m",
+      "pulse_immediately": true,
+      "pulse_on_destroy": true
+   }
+}

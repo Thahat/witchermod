@@ -1,0 +1,4 @@
+{
+	"mixins": "/stonehearth_ace/jobs/herbalist/recipes/brewer_tumbler_recipe.json",
+	"workshop": "stonehearth:carpenter:workbench"
+}

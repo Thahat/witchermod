@@ -1,0 +1,53 @@
+{
+   "type": "index",
+   "mineable_blocks": {
+      "meteor": {
+         "entries": {
+            "default": {
+               "items": {
+				  "none": {
+                     "uri": "",
+                     "weight": 90
+                  },
+                  "hunk_of_stone": {
+                     "uri": "stonehearth:resources:stone:hunk_of_stone",
+                     "weight": 10
+                  },
+                  "iron_ore": {
+                     "uri": "stonehearth:resources:iron:ore",
+                     "weight": 45
+                  },
+                  "gold_ore": {
+                     "uri": "stonehearth:resources:gold:ore",
+                     "weight": 15
+                  },
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 60
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

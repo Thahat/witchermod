@@ -1,0 +1,72 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(empty_hand.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(basic_spellbook_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 25,
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 25,
+         "base_ranged_acolyte_damage": 25,
+         "range": 30,
+         "projectile_speed": 30,
+         "projectile_uri": "witchermod:weapons:fireball",
+         "projectile_start_offset": { "x": -0.2, "y": 1.5, "z": -1 },
+         "projectile_end_offset": { "x": 0, "y": 1.5, "z": 0 }
+      },
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "stonehearth:buffs:archer:fire_arrow",
+               "chance": 0.5
+            }
+         }
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "archer_1h_shoot",
+            "effect": "archer_1h_shoot",
+            "active_frame": 41,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.weapons.basic_spellbook.display_name)",
+         "description": "i18n(witchermod:entities.weapons.basic_spellbook.description)",
+         "icon": "file(basic_spellbook.png)",
+         "category": "weapons",
+         "material_tags": [
+            "magic",
+            "fire",
+            "ranged_weapon"
+         ]
+      }
+   }
+}

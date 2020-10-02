@@ -1,0 +1,25 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(potion_rack.qb)"
+				]
+			}
+		},
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+			}
+		},
+		"entity_data": {
+			"stonehearth:catalog": {
+				"display_name": "i18n(witchermod:entities.decoration.potion_rack_ghost.display_name)",
+				"description": "i18n(witchermod:entities.decoration.potion_rack_ghost.description)",
+				"icon": "file(potion_rack.png)",
+				"category": "decoration",
+				"material_tags": "crystal decoration stockpile_decoration crafted"
+		}
+	}
+}

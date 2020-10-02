@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.2
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(town_banner_witcher_cat.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.gizmos.town_banner_witcher_cat.town_banner_witcher_cat_ghost.display_name)",
+         "description": "i18n(witchermod:entities.gizmos.town_banner_witcher_cat.town_banner_witcher_cat_ghost.description)",
+         "icon": "file(town_banner_witcher_cat.png)",
+         "category": "decoration",
+         "material_tags": [
+            "clay",
+            "cloth",
+            "decoration",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

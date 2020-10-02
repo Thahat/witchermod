@@ -1,0 +1,20 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(witchermod:data.buffs.quen.quen.display_name)",
+   "description": "i18n(witchermod:data.buffs.quen.quen.description)",
+   "invisible_to_player": true,
+   "icon": "file(quen_buff.png)", 
+   "persistent": false,
+   "script": "witchermod:buff_scripts:buff_near_hostiles",
+   "script_info": {
+      "pulse_immediately": true,
+      "pulse": "3m",
+	  "emit_if_enemies_nearby": true,
+      "aura_buff": "witchermod:buffs:quen:effect",
+      "radius": 0.05,
+	  "hostile_radius": 15,
+      "affect_self": true,
+      "target_type": "mob"
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.thunderbolt.thunderbolt_buff.display_name)",
+   "description": "i18n(witchermod:data.buffs.thunderbolt.thunderbolt_buff.description)",
+   "effect": "stonehearth:effects:buff:hothead",
+   "icon": "file(thunderbolt_buff.png)",
+   "duration": "40m",
+   "persistent": false,
+   "cooldown_buff": "witchermod:buffs:thunderbolt:cooldown",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.15
+      }
+   }
+}

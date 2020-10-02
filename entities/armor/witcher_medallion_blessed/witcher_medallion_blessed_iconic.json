@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(witcher_medallion_blessed_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.armor.witcher_medallion_blessed.witcher_medallion_blessed_iconic.display_name)",
+         "description": "i18n(witchermod:entities.armor.witcher_medallion_blessed.witcher_medallion_blessed_iconic.description)",
+         "icon": "file(witcher_medallion_blessed.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:herbalist",
+   "display_name": "i18n(witchermod:jobs.herbalist.herbalist_description.display_name)",
+   "description": "i18n(witchermod:jobs.herbalist.herbalist_description.description)",
+   "requirements": "i18n(witchermod:jobs.herbalist.herbalist_description.requirements)",
+   "equipment": {
+      "torso": "file(herbalist_outfit)",
+      "mainhand": "witchermod:herbalist:book",
+	  "helmet": "file(herbalist_outfit/herbalist_outfit_hat)"
+   },
+   "talisman_uri": "witchermod:herbalist:talisman",
+   "icon": "file(images/icon.png)",
+   "task_groups": [
+      "stonehearth:task_groups:build"
+   ]
+}

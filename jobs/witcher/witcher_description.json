@@ -1,0 +1,77 @@
+{
+   "mixins": "stonehearth:jobs:footman",
+   "mixintypes": {
+      "level_data": "override"
+   },
+   "type": "job",
+   "job_id": "witcher",
+   "display_order": 1,
+   "alias": "witchermod:jobs:witcher",
+   "display_name": "i18n(witchermod:jobs.witcher.witcher_description.display_name)",
+   "controller": "witchermod:class:witcher",
+   "description": "i18n(witchermod:jobs.witcher.witcher_description.description)",
+   "requirements": "i18n(witchermod:jobs.witcher.witcher_description.requirements)",
+   "talisman_uri": "witchermod:witcher:talisman",
+   "default_stance": "aggressive",
+   "abilities": "file(witcher_abilities)",
+   "equipment": {
+      "mixintypes": {
+         "torso": "override",
+         "mainhand": "override"
+      },
+      "torso": "witchermod:jobs:witcher:witcher_outfit",
+      "mainhand": "witchermod:weapons:training_sword_witcher",
+      "helmet": "file(witcher_outfit/witcher_eyes/witcher_eyes.json)"
+   },
+   "roles": [
+      "footman_job",
+      "witcher_job",
+      "cloth_wearer",
+      "leather_wearer",
+      "mail_wearer",
+      "melee_combat",
+      "combat"
+   ],
+   "promotion_activity_name": "promote_witcher",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:placement",
+	  "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest"
+   ],
+   "xp_rewards": {
+      "town_protection": 1
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "witchermod:jobs:initiate",
+   "parent_level_requirement": 6,
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(witchermod:jobs.witcher.witcher_description.level_1_data.perk_000_name)",
+               "id": "witcher_mutations",
+               "icon": "file(images/witcher_mutations.png)",
+               "buff_name": "witchermod:buffs:witcher:witcher_mutations",
+               "description": "i18n(witchermod:jobs.witcher.witcher_description.level_1_data.perk_000_description)",
+               "level": 1
+            },
+            {
+               "type": "add_combat_action",
+               "name": "i18n(witchermod:jobs.witcher.witcher_description.level_1_data.perk_001_name)",
+               "id": "witcher_eyes",
+               "icon": "file(images/witcher_mutations.png)",
+               "equipment": "witchermod:jobs:witcher:eyes",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "i18n(witchermod:jobs.witcher.witcher_description.level_1_data.perk_001_description)",
+               "level": 1
+            }
+         ]
+      }
+   }
+}

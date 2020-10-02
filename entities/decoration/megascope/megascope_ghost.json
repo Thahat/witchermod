@@ -1,0 +1,25 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(megascope.qb)"
+				]
+			}
+		},
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+			}
+		},
+		"entity_data": {
+			"stonehearth:catalog": {
+				"display_name": "i18n(witchermod:entities.decoration.megascope_ghost.display_name)",
+				"description": "i18n(witchermod:entities.decoration.megascope_ghost.description)",
+				"icon": "file(megascope.png)",
+				"category": "decoration",
+				"material_tags": "crystal decoration stockpile_decoration crafted"
+		}
+	}
+}

@@ -1,0 +1,1003 @@
+{
+   "data": {
+      "population": {
+         "witchermod": {
+            "display_name": "The School of the Wolf",
+            "description": "Professional monster hunters one and all, the School of the Wolf is looking to earn their place in a new land and settle their fortress there. <div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>For more advanced players.</div>",
+            "quote": "Where'd you complete your training? School of the Snail? Get moving its time to embark!",
+            "initial_town_name": "Fortress [str(town_number)]",
+            "post_selection_description": ", a group of professional monster hunters."
+         }
+      },
+      "buffs": {
+         "swallow": {
+            "swallow_buff": {
+               "display_name": "Swallow",
+               "description": "Swallow accelerates the rate at which wounds scab over and heal"
+            },
+            "cooldown": {
+               "display_name": "Out of Swallow potions",
+               "description": "Need to brew some new ones...will take some time."
+            }
+         },
+         "thunderbolt": {
+            "cooldown": {
+               "description": "Need to brew some new ones...will take some time.",
+               "display_name": "Out of Thunderbolt potions"
+            },
+            "thunderbolt_buff": {
+               "description": "Strenghtens the muscles, increasing damage done.",
+               "display_name": "Thunderbolt"
+            }
+         },
+         "maribor_forest": {
+            "cooldown": {
+               "description": "Need to brew some new ones...will take some time.",
+               "display_name": "Out of Maribor Forrest potions"
+            },
+            "maribor_forest_buff": {
+               "display_name": "Maribor Forest",
+               "description": "Maribor Forest significantly increases maximum Endurance"
+            }
+         },
+         "blade_oil": {
+            "display_name": "Blade oil",
+            "description": "Special oils applied to a witchers blade mean even minor cuts cause deceptively much damage"
+         },
+         "quen": {
+            "quen": {
+               "display_name": "Quen Sign",
+               "description": "Quen, also known as the Witcher's shield, grants a significant increase in defence while it is up."
+            },
+            "quen_cooldown": {
+               "display_name": "Quen Cooldown",
+               "description": "Quen can not be used right now"
+            }
+         },
+         "witcher_resist": {
+            "witcher_resist_buff": {
+               "display_name": "Witcher Mutations",
+               "description": "After surviving the mutation process, the witcher has enhanced speed, strength, stamina and resistance to disease and poison."
+            }
+         }
+      }
+   },
+   "jobs": {
+      "worker": {
+         "worker_description": {
+            "display_name": "Acolyte",
+            "description": "Acolytes perform the more menial tasks, hauling, harvesting, building and constructing buildings and items"
+         }
+      },
+      "initiate": {
+         "initiate_description": {
+            "display_name": "Initiate",
+            "description": "The initiate has taken the first step on the way to become a witcher. Traps animals and leans to hunt monsters.",
+            "level_3_data": {
+               "perk_000_name": "Tools of the trade"
+            },
+            "level_1_data": {
+               "perk_000_name": "The Choice",
+               "perk_000_description": "The first step on the path, the Initiate has started intensive physical training and sword drills, increasing weapon damage by 20%"
+            },
+            "level_2_data": {
+               "perk_000_name": "Practiced footwork",
+               "perk_000_description": "Knowing just how to put your feet down doesnt just make you faster, it makes you less likely to be hit like a chump!"
+            },
+            "level_5_data": {
+               "perk_000_name": "Whirl"
+            },
+            "level_6_data": {
+               "perk_000_name": "Anatomical knowledge",
+               "perk_000_description": "Anatomical knowledge ensures each strike deals maximum damage! (+60%)"
+            },
+            "level_4_data": {
+               "perk_000_name": "Sign: Quen"
+            }
+         },
+         "initiate_buffs": {
+            "damage_1_buff": {
+               "description": "The first step on the path, the Initiate has started intensive physical training and sword drills, increasing weapon damage by 20%"
+            },
+            "speed_buff": {
+               "display_name": "Practiced footwork",
+               "description": "Knowing just how to put your feet down doesnt just make you faster, it makes you less likely to be hit like a chump!"
+            },
+            "damage_3_buff": {
+               "display_name": "Anatomical knowledge",
+               "description": "Anatomical knowledge ensures each strike deals maximum damage! (+60%)"
+            }
+         },
+         "initaite_description": {
+            "level_5_data": {
+               "perk_000_description": "A fast sword manouvre damaging multiple enemies all around."
+            }
+         },
+         "initiate_outfit": {
+            "display_name": "Shirt",
+            "description": "Initiates Outfit"
+         }
+      },
+      "mage": {
+         "mage_description": {
+            "display_name": "Mage",
+            "description": "Those with the spark of chaos in them, learns about herbs and combat magic",
+            "requirements": "Crafted by a Mage"
+         },
+         "mage_outfit": {
+            "display_name": "Mage's clothes",
+            "description": "Mages Clothes"
+         },
+         "recipes": {
+            "witcher_talisman_recipe": {
+               "recipe_name": "Decoction of the Grasses",
+               "description": "Used to create a witcher from an initiate ready for the path.",
+               "flavor": "\"Finally, came the seventh day. The male awoke and opened his eyes, and his eyes were those of a viper...\""
+            },
+            "wildrye_juice_recipe": {
+               "recipe_name": "Wildrye Juice",
+               "description": "A volatile alchemical ingredient, Causes a fury in any that even touch a drop of it.",
+               "flavor": "\"Hitherto agitated by a sudden madness, he fell at once into deep stupor\""
+            },
+            "speargrass_sap_recipe": {
+               "recipe_name": "Speargrass Sap",
+               "flavor": "\"His breathing grew loud and hoarse; sweat cold, clammy and malodorous appeared on his skin..\"",
+               "description": "A volatile alchemical ingredient, Named after the fact that if you imbibe it, it feels like spears stick you all over."
+            },
+            "pile_of_books_recipe": {
+               "recipe_name": "Pile of books",
+               "description": "Books containing varried information",
+               "flavor": "placeholder flavortext"
+            },
+            "mothers_tears_recipe": {
+               "recipe_name": "Mothers Tears",
+               "description": "A volatile alchemical ingredient, Normally leathal in concentrations greater than half a droplet...And this is a bottle full.",
+               "flavor": "\"No more did he wake, nor did he scream...For two days more did symptoms not subside\""
+            },
+            "mage_workbench_recipe": {
+               "recipe_name": "Mage's Workbench",
+               "description": "used by the mage for the creation of items, various.",
+               "flavor": "placeholder text"
+            },
+            "pile_of_scrolls_recipe": {
+               "flavor": "flavor placeholder",
+               "recipe_name": "Pile of Scrolls",
+               "description": "Scrolls containing various treaties and documentations."
+            },
+            "potion_rack_recipe": {
+               "recipe_name": "Potion Rack",
+               "flavor": "placeholder flavortext",
+               "description": "Potion Rack"
+            },
+            "alchemy_kit_recipe": {
+               "recipe_name": "Alchemy Kit",
+               "flavor": "placeholder flavortext",
+               "description": "Alchemy Kit"
+            },
+            "alchemy_kit_2_recipe": {
+               "recipe_name": "Alchemy Kit",
+               "flavor": "placeholder flavortext",
+               "description": "Alchemy Kit"
+            },
+            "crystal_ball_recipe": {
+               "recipe_name": "Chrystal Ball",
+               "description": "Chrystal Ball",
+               "flavor": "placeholder flavortext"
+            }
+         },
+         "mage_workbench": {
+            "mage_workbench_ghost": {
+               "display_name": "Mage's workbench",
+               "description": "Used by the mage for rudementary experiments"
+            }
+         }
+      },
+      "witcher": {
+         "witcher_description": {
+            "display_name": "Witcher",
+            "description": "Genetically altered, professional monster slayers.",
+            "requirements": "Made by a Mage",
+            "level_1_data": {
+               "perk_000_name": "Trial of the Grasses",
+               "perk_000_description": "Immuun to most toxins, and superhuman speed and senses...that is, if you survive it.",
+               "perk_001_name": "Witcher Eyes",
+               "perk_001_description": "Cat like eyes"
+            }
+         },
+         "fwitcher_description": {
+            "requirements": "Requires a lvl 6 Initiate to undergo the trial of the grasses"
+         },
+         "witcher_outfit": {
+            "display_name": "Witcher's clothes",
+            "description": "Witchers clothes"
+         }
+      },
+      "inititate": {
+         "initiate_description": {
+            "level_3_data": {
+               "perk_000_description": "The initiate has learned of the tools used by witchers, and now uses blade oils and bombs to fight his foes."
+            },
+            "level_4_data": {
+               "perk_000_description": "Quen, also known as the witchers shield, is a magical sign witchers can use to protect them from harm and hamper incoming blows."
+            }
+         }
+      },
+      "blacksmith": {
+         "recipes": {
+            "kaer_morhen_armor": {
+               "flavor": "Nonsense,\" said the Witcher. \"And what's more, it doesn't rhyme. All decent predictions rhyme.",
+               "recipe_name": "Kaer Morhen Armour",
+               "description": "Made out of leather and iron, strong but light and manouverable."
+            },
+            "cat_school_armor_basic": {
+               "recipe_name": "Cat-School Armour",
+               "description": "Light Witcher armour, favored by those of the school of the cat",
+               "flavor": "flavor placeholder"
+            },
+            "cat_school_armor_enhanced": {
+               "recipe_name": "Enhanced Cat-School Armour",
+               "description": "Light Witcher armour, favored by those of the school of the cat, improved over the basic version",
+               "flavor": "flavor placeholder"
+            },
+            "cat_school_armor_grandmaster": {
+               "description": "Mastercrafted Light Witcher armour, favored by those of the school of the cat",
+               "recipe_name": "Grandmaster Cat-School Armour",
+               "flavor": "flavor placeholder"
+            },
+            "bear_school_armor_basic": {
+               "recipe_name": "Bear-School Armour",
+               "description": "Heavy-duty Witcher armour, favored by those of the school of the bear",
+               "flavor": "flavor placeholder"
+            },
+            "bear_school_armor_enhanced": {
+               "recipe_name": "Enhanced Bear-School Armour",
+               "flavor": "flavor placeholder",
+               "description": "Enhanced Heavy-duty Witcher armour, favored by those of the school of the bear"
+            },
+            "bear_school_armor_grandmaster": {
+               "flavor": "flavor placeholder",
+               "recipe_name": "Grandmaster Bear-School Armour",
+               "description": "Mastercrafted Heavy-duty Witcher armour, favored by those of the school of the bear"
+            },
+            "mutation_table": {
+               "recipe_name": "Mutation Table",
+               "description": "Sturdy, cold and sterile. Used in mutation processes. Or as a bed for the more specialised sort of user.",
+               "flavor": "\"Sad albert...i didnt think we would even use this again\" -Vesemir"
+            },
+            "bronze_sword_witcher": {
+               "recipe_name": "Bronze Longsword",
+               "description": "A long blade made out of bronze",
+               "flavor": "Placeholder"
+            },
+            "iron_sword_witcher": {
+               "recipe_name": "Iron Longsword",
+               "description": "A long blade made out of Iron",
+               "flavor": "\"Iron is for men..\" -Vesimir"
+            },
+            "silver_sword_witcher": {
+               "recipe_name": "Silver Longsword",
+               "description": "A long blade made out of Silver",
+               "flavor": "\"...And silver for monsters\" -Vesimir"
+            },
+            "steel_sword_witcher": {
+               "recipe_name": "Steel Longswod",
+               "description": "A long blade made out of Steel",
+               "flavor": "placeholder"
+            },
+            "dimeterium_ingot_recipe": {
+               "recipe_name": "Dimeterium Ingot",
+               "flavor": "flavor placeholder",
+               "description": "An anti-magic dimeterium ingot"
+            },
+            "bronze_plate_recipe": {
+               "recipe_name": "Bronze Plate (x2)",
+               "flavor": "flavor placeholder",
+               "description": "Bronze Plates"
+            },
+            "dimeterium_plate_recipe": {
+               "recipe_name": "Dimeterium Plate (x2)",
+               "description": "Anti-Magic Dimeterium Plates",
+               "flavor": "flavor placeholder"
+            },
+            "iron_plate_recipe": {
+               "recipe_name": "Iron Plate (x2)",
+               "description": "Iron Plates",
+               "flavor": "flavor placeholder"
+            },
+            "silver_plate_recipe": {
+               "recipe_name": "Silver Plate (x2)",
+               "description": "Silver Plates",
+               "flavor": "flavor placeholder"
+            },
+            "steel_plate_recipe": {
+               "recipe_name": "Steel Plate (x2)",
+               "description": "Steel Plates",
+               "flavor": "flavor placeholder"
+            },
+            "manticore_school_armor_basic": {
+               "recipe_name": "Manticore-School Armor",
+               "flavor": "flavor placeholder",
+               "description": "Versatile witcher armour, favored by those of the school of the manticore"
+            },
+            "manticore_school_armor_enhanced": {
+               "recipe_name": "Enhanced Manticore-School Armour",
+               "flavor": "flavor placeholder",
+               "description": "Enhanced versatile witcher armour, favored by those of the school of the manticore"
+            },
+            "manticore_school_armor_grandmaster": {
+               "flavor": "flavor placeholder",
+               "recipe_name": "Grandmaster Manticore-School Armour",
+               "description": "Mastercrafted versatile witcher armour, favored by those of the school of the manticore"
+            }
+         },
+         "grindstone": {
+            "grindstone_ghost": {
+               "display_name": "Grindstone",
+               "description": "Needed to make weapons with a razor sharp edge."
+            }
+         }
+      },
+      "footman": {
+         "footman_buffs": {
+            "damage_1_buff": {
+               "display_name": "The Choice (Damage +20%)"
+            }
+         },
+         "initiate_buffs": {
+            "damage_1_buff": {
+               "display_name": "The Choice (Damage +20%)"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "stone_shortsword_recipe": {
+               "recipe_name": "Stone Shortsword",
+               "description": "Heavy, but sharp!",
+               "flavor": "It worked for cavemen, it will have to do for you!"
+            },
+            "amethyst_dust_recipe": {
+               "recipe_name": "Amethyst Dust",
+               "description": "Precious stones, ground to dust.",
+               "flavor": "Placeholder flavortext"
+            },
+            "diamond_dust_recipe": {
+               "flavor": "Placeholder flavortext",
+               "description": "Precious stones, ground to dust.",
+               "recipe_name": "Diamond Dust"
+            },
+            "dimeterium_dust_recipe": {
+               "flavor": "Placeholder flavortext",
+               "recipe_name": "Dimeterium Dust",
+               "description": "Anti magic dimeterium dust."
+            },
+            "emerald_dust_recipe": {
+               "flavor": "Placeholder flavortext",
+               "description": "Precious stones, ground to dust.",
+               "recipe_name": "Emerald Dust"
+            },
+            "ruby_dust_recipe": {
+               "flavor": "Placeholder flavortext",
+               "description": "Precious stones, ground to dust.",
+               "recipe_name": "Ruby Dust"
+            },
+            "sapphire_dust_recipe": {
+               "flavor": "Placeholder flavortext",
+               "description": "Precious stones, ground to dust.",
+               "recipe_name": "Sapphire Dust"
+            }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "display_name": "Scholar",
+            "requirements": "Crafted by an Acolyte",
+            "description": "Dedicated to academic persuits, specialising in biology and healing."
+         },
+         "herbalist_book": {
+            "herbalist_book_talisman": {
+               "display_name": "Academic Texts",
+               "description": "Used to promote a Scholar"
+            }
+         }
+      },
+      "carpenter": {
+         "recipes": {
+            "training_sword_initiate_recipe": {
+               "flavor": "flavor placeholder",
+               "recipe_name": "Wooden Trainingsword",
+               "description": "Used to promote an acolyte into an initiate."
+            },
+            "paper_recipe": {
+               "flavor": "flavor placeholder",
+               "recipe_name": "Paper (x3)",
+               "description": "Multiple sheets of paper, made out of wood pulp."
+            },
+            "herbalist_book_recipe": {
+               "recipe_name": "Academic Texts",
+               "description": "Used to promote a Scholar"
+            },
+            "training_dummy_recipe": {
+               "recipe_name": "Training Dummy",
+               "description": "Made for sword training, tends not to last long.",
+               "flavor": "\"If you are not sharp, your sword will also be dull! Now! Once more!\" -Unnamed swordmaster"
+            },
+            "fuel_holder_small_wooden_recipe": {
+               "recipe_name": "Firewood Holder",
+               "flavor": "placeholder",
+               "description": "A Firewood Holder, made out of wood."
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "vodka_recipe": {
+               "recipe_name": "Vodka",
+               "flavor": "“Vodka is like water, but with consequences.” -Karel, Witcher Initiate",
+               "description": "\"A strong brew made from potatoes. Makes hearthlings happy but also quite tipsy! \""
+            },
+            "baked_potato_recipe": {
+               "recipe_name": "Baked Potato",
+               "flavor": "flavor placeholder",
+               "description": "Exactly why you expect. A baked potato."
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "leather_strip_recipe": {
+               "recipe_name": "Leather Strip (x3)",
+               "description": "Leather strips, usefull for a variety of useages.",
+               "flavor": "Placeholder flavortext"
+            }
+         }
+      }
+   },
+   "entities": {
+      "weapons": {
+         "bronze_sword_witcher": {
+            "bronze_sword_witcher_iconic": {
+               "display_name": "Bronze Longsword",
+               "description": "A long blade made out of bronze"
+            },
+            "display_name": "Bronze Longsword",
+            "description": "A long blade made out of bronze"
+         },
+         "iron_sword_witcher": {
+            "display_name": "Iron Longsword",
+            "description": "A long blade made out of iron",
+            "iron_sword_witcher_iconic": {
+               "display_name": "Iron longsword",
+               "description": "A long blade made out of iron"
+            }
+         },
+         "steel_sword_witcher": {
+            "display_name": "Steel Longsword",
+            "description": "A long blade made out of steel",
+            "steel_sword_witcher_iconic": {
+               "display_name": "Steel Longsword",
+               "description": "A long blade made out of steel"
+            }
+         },
+         "silver_sword_witcher": {
+            "display_name": "Silver Longsword",
+            "description": "A long blade coated in Silver, a witchers blade",
+            "silver_sword_witcher_iconic": {
+               "display_name": "Silver Longsword",
+               "description": "A long blade coated in Silver, a Witchers blade"
+            }
+         },
+         "training_sword_witcher": {
+            "training_sword_witcher_iconic": {
+               "display_name": "Wooden training sword",
+               "description": "Used to train new Initiates and Witchers with"
+            },
+            "display_name": "Wooden training sword",
+            "description": "Used to train new Initiates and Witchers with",
+            "training_sword_witcher_talisman": {
+               "display_name": "Wooden Trainingsword",
+               "description": "Used to promote an acolyte into an initiate."
+            }
+         },
+         "fireball": {
+            "display_name": "Fireball",
+            "description": "Standard issue fireball"
+         },
+         "basic_spellbook": {
+            "basic_spellbook_talisman": {
+               "display_name": "Basic Spellbooks (talisman)",
+               "description": "Used to educate an accolyte to a Mage Aspirant"
+            },
+            "display_name": "Basic Spells",
+            "description": "A basic magical attack, that can set enemies on fire."
+         },
+         "stone_shortsword": {
+            "stone_shortsword_iconic": {
+               "display_name": "Stone Shortsword",
+               "description": "Heavy but sharp"
+            },
+            "description": "Heavy but sharp",
+            "display_name": "Stone Shortsword"
+         },
+         "training_sword_initiate": {
+            "training_sword_initiate_iconic": {
+               "display_name": "Wooden training sword",
+               "description": "Used to train new Initiates and Witchers with"
+            },
+            "display_name": "Wooden Trainingsword",
+            "description": "A simple starting weapon."
+         }
+      },
+      "armor": {
+         "kaer_morhen_armor": {
+            "display_name": "Kaer morhen armor",
+            "description": "A style of armour used by Witchers on the path"
+         },
+         "cloth_armor": {
+            "cloth_armor_iconic": {
+               "display_name": "Loose Cloth Shirt",
+               "description": "Loose clothes allow witchers to move fast while fighting!"
+            },
+            "display_name": "Loose Cloth Shirt",
+            "description": "Loose clothes allow witchers to move fast while fighting!"
+         },
+         "cat_school_armor_basic": {
+            "display_name": "Feline Armour",
+            "description": "Light Witcher armour, favored by those of the school of the cat"
+         },
+         "cat_school_armor_enhanced": {
+            "display_name": "Enhanced Feline Armour",
+            "description": "Light Witcher armour, favored by those of the school of the cat, stonger than the regular version."
+         },
+         "cat_school_armor_grandmaster": {
+            "display_name": "Grandmaster Feline Armour",
+            "description": "Mastercrafted Light Witcher armour, favored by those of the school of the cat"
+         },
+         "bear_school_armor_basic": {
+            "display_name": "Ursine Armour",
+            "description": "Heavy-duty Witcher armour, favored by those of the school of the bear"
+         },
+         "bear_school_armor_enhanced": {
+            "description": "Heavy-duty Witcher armour, favored by those of the school of the bear, stronger than the basic version.",
+            "display_name": "Enhanced Ursine Armour"
+         },
+         "bear_school_armor_grandmaster": {
+            "display_name": "Grandmaster Ursine Armour",
+            "description": "Mastercrafted, heavy-duty Witcher armour. Favored by those of the school of the bear."
+         },
+         "manticore_school_armor_basic": {
+            "display_name": "Manticore Armour",
+            "description": "Medium Witcher armour, favored by those of the school of the manticore for its abillity to hold ingredients and alchemical concoctions."
+         },
+         "manticore_school_armor_enhanced": {
+            "display_name": "Enhanced Manticore Armour",
+            "description": "Enhanced Medium Witcher armour, favored by those of the school of the manticore for its abillity to hold ingredients and alchemical concoctions."
+         },
+         "manticore_school_armor_grandmaster": {
+            "display_name": "Grandmaster Manticore Armour",
+            "description": "Grandmaster Witcher armour, favored by those of the school of the manticore for its abillity to hold ingredients and alchemical concoctions."
+         },
+         "torch": {
+            "torch_iconic": {
+               "display_name": "Torch",
+               "description": "Gives off heat and light, can be used to block a blow in an emergency"
+            },
+            "display_name": "Torch",
+            "description": "Gives off heat and light, can be used to block a blow in an emergency"
+         },
+         "wooden_talisman": {
+            "display_name": "Wooden Talisman",
+            "description": "Barely more than a good luck charm.",
+            "wooden_talisman_iconic": {
+               "display_name": "Wooden Talisman",
+               "description": "Barely more than a good luck charm."
+            }
+         },
+         "witcher_medallion_blessed": {
+            "display_name": "Witcher's Medallion",
+            "description": "Vibrates in the presence of Magic and danger.",
+            "witcher_medallion_blessed_iconic": {
+               "display_name": "Witcher's Medallion",
+               "description": "Vibrates in the presence of Magic and danger."
+            }
+         },
+         "witcher_medallion": {
+            "display_name": "Witcher's Medallion (unpowered)",
+            "description": "A Witcher's mediallion, Not yet fully powered."
+         },
+         "stone_talisman": {
+            "display_name": "Stone Talisman",
+            "description": "A rock with a hole in it is concidered magical by the local peasantry.",
+            "stone_talisman_iconic": {
+               "display_name": "Stone Talisman",
+               "description": "A rock with a hole in it is concidered magical by the local peasantry."
+            }
+         },
+         "witcher_eyes": {
+            "display_name": "Witcher-eyes",
+            "description": "Cat like eyes, enabling the Witcher to see in near-dark conditions."
+         }
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "Potato Basket",
+               "description": "Basket of potatoes"
+            },
+            "potato_serving": {
+               "display_name": "Potatoes",
+               "description": "Fast-growing, but pretty bland on its own."
+            }
+         },
+         "onion": {
+            "onion_basket": {
+               "display_name": "Basket of Onions",
+               "description": "Round pungent vegetable."
+            },
+            "onion_serving": {
+               "display_name": "Onions",
+               "description": "Tastier when fried up!"
+            }
+         },
+         "cabbage": {
+            "cabbage_basket": {
+               "display_name": "Cabbage in a basket",
+               "description": "A cabbage in a basket. Its that simple."
+            },
+            "cabbage_serving": {
+               "display_name": "Cabbage on a plate",
+               "description": "Consider it a salad"
+            }
+         }
+      },
+      "crops": {
+         "potato_crop": {
+            "display_name": "Potatoes",
+            "growth_stage": {
+               "011": {
+                  "description": "Moldy and disgusting.",
+                  "name": "Rotten Potato"
+               },
+               "000": {
+                  "name": "Potato Seedlings",
+                  "description": "Unrealized Potatoes."
+               },
+               "001": {
+                  "name": "Potato Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "002": {
+                  "name": "Baby Potatoes",
+                  "description": "Small. Inedible."
+               },
+               "003": {
+                  "name": "Ripe Potatoes",
+                  "description": "Nutricious"
+               }
+            },
+            "description": "Fast-growing, but pretty bland on its own."
+         },
+         "cabbage_crop": {
+            "display_name": "Cabbage",
+            "description": "Leafy and green",
+            "growth_stage": {
+               "011": {
+                  "name": "Rotten Cabbage",
+                  "description": "Rotten and stinks like the blazes"
+               },
+               "000": {
+                  "name": "Cabbage Sprout",
+                  "description": "Planted and ready to grow!"
+               },
+               "001": {
+                  "name": "Baby Cabbage",
+                  "description": "Just a 'Lil guy"
+               },
+               "002": {
+                  "name": "Small Cabbage",
+                  "description": "Still growing!"
+               },
+               "003": {
+                  "name": "Ripe Cabbage",
+                  "description": "Ready to be harvested!"
+               }
+            }
+         },
+         "onion_crop": {
+            "growth_stage": {
+               "004": {
+                  "name": "Mature Hops",
+                  "description": "Ready for picking!"
+               },
+               "000": {
+                  "name": "Onion sapling",
+                  "description": "Will grow into an onion"
+               },
+               "001": {
+                  "name": "Growing onion",
+                  "description": "Grow little plant grow"
+               },
+               "003": {
+                  "name": "Ripe Onion",
+                  "description": "Ready for harvest"
+               },
+               "002": {
+                  "name": "Growing onion",
+                  "description": "Growing nicely"
+               },
+               "011": {
+                  "name": "Spoiled onion",
+                  "description": "No longer fit for consumption"
+               }
+            },
+            "display_name": "Onion",
+            "description": "Onions, good to eat on their own, but better when baked or fried!"
+         }
+      },
+      "decoration": {
+         "pile_of_books_ghost": {
+            "display_name": "Pile of books",
+            "description": "Contains varied knowledge and formulae"
+         },
+         "pile_of_scrolls_ghost": {
+            "description": "Contains varied knowledge and formulae",
+            "display_name": "Pile of Scrolls"
+         },
+         "crystal_ball_ghost": {
+            "display_name": "Crystal Ball",
+            "description": "Magical instrument of indeterminate nature, some say it can be used for long range communication"
+         },
+         "alchemy_kit_ghost": {
+            "display_name": "Alchemy kit",
+            "description": "alchemy kit placeholder"
+         },
+         "alchemy_kit_2_ghost": {
+            "display_name": "Alchemical device",
+            "description": "placeholder description"
+         },
+         "potion_rack_ghost": {
+            "display_name": "Potion Rack",
+            "description": "Small bubbly vials"
+         },
+         "megacrop": {
+            "mega_cabbage": {
+               "display_name": "Huge Cabbage",
+               "description": "I think, you are going to need more sallads.",
+               "iconic_description": "Huge Cabbage"
+            },
+            "mega_onion": {
+               "display_name": "Mega-Onion",
+               "description": "ITS BIG",
+               "iconic_description": "Mega-Onion"
+            }
+         }
+      },
+      "food": {
+         "baked_potato": {
+            "baked_potato": {
+               "display_name": "Baked potato",
+               "description": "Good, solid food"
+            },
+            "baked_potato_serving": {
+               "display_name": "Baked potato",
+               "description": "Good, solid food"
+            }
+         },
+         "onion": {
+            "onion_basket": {
+               "display_name": "Basket of Onions",
+               "description": "Round pungent vegetable."
+            },
+            "onion_serving": {
+               "display_name": "Onions",
+               "description": "Tastier when fried up!"
+            }
+         },
+         "cabbage": {
+            "cabbage_basket": {
+               "display_name": "Cabbage in a basket",
+               "description": "A cabbage in a basket. Its that simple."
+            },
+            "cabbage_serving": {
+               "display_name": "Cabbage on a plate",
+               "description": "Consider it a salad"
+            }
+         }
+      },
+      "drink": {
+         "vodka": {
+            "vodka": {
+               "display_name": "Vodka",
+               "description": "Alcaholic drink, sure to give a buzz"
+            },
+            "vodka_serving": {
+               "display_name": "Vodka"
+            }
+         }
+      },
+      "potion": {
+         "maribor_forest": {
+            "maribor_forest_iconic": {
+               "display_name": "Maribor Forest Potion"
+            },
+            "display_name": "Maribor Forest Potion",
+            "description": "Maribor Forest significantly increases maximum Endurance, it is predominantly used by witchers"
+         },
+         "swallow": {
+            "display_name": "Swallow Potion",
+            "description": "Symbolizing spring and rejuvenation, the swallow lent its name to this potion that accelerates the rate at which wounds scab over and heal"
+         },
+         "thunderbolt": {
+            "display_name": "Thunderbolt Potion",
+            "description": "Augments muscle power and thus damage dealt, this potion is recommended before fighting particularly resilient or heavily armored monsters."
+         }
+      },
+      "resources": {
+         "gem_sapphire": {
+            "display_name": "Uncut Sapphires",
+            "description": "Rough uncut pieces of sapphire"
+         },
+         "gem_ruby": {
+            "display_name": "Uncut Rubys",
+            "description": "Rough uncut pieces of ruby"
+         },
+         "gem_amethyst": {
+            "display_name": "Uncut Amethysts",
+            "description": "Rough uncut pieces of amethyst"
+         },
+         "gem_diamond": {
+            "display_name": "Uncut Diamonds",
+            "description": "Rough uncut pieces of diamond"
+         },
+         "gem_emerald": {
+            "display_name": "Uncut Emeralds",
+            "description": "Rough uncut pieces of emerald"
+         },
+         "dimeterium": {
+            "dimeterium_ore": {
+               "display_name": "Dimeterium Ore",
+               "description": "Destinctly anti-magic. can be forged into Dimeterium bars."
+            }
+         }
+      },
+      "refined": {
+         "dimeterium_ingot": {
+            "display_name": "Dimeterium Ingot",
+            "description": "A rare metal that, when worked propperly, absorbs magical energies."
+         },
+         "bronze_plate": {
+            "display_name": "Bronze Plate",
+            "description": "A Bronze Plate"
+         },
+         "iron_plate": {
+            "display_name": "Iron Plate",
+            "description": "An Iron Plate"
+         },
+         "steel_plate": {
+            "display_name": "Steel Plate",
+            "description": "A Steel Plate"
+         },
+         "dimeterium_plate": {
+            "display_name": "Dimeterium Plate",
+            "description": "A Dimeterium Plate"
+         },
+         "dimeterium_dust": {
+            "display_name": "Dimeterium Dust",
+            "description": "Refined Dimeterium, processed into powdered form."
+         },
+         "emerald_dust": {
+            "description": "Uncut Emerald, ground into powdered form.",
+            "display_name": "Emerald Dust"
+         },
+         "diamond_dust": {
+            "display_name": "Diamond Dust",
+            "description": "Uncut Diamond, ground into powdered form."
+         },
+         "sapphire_dust": {
+            "description": "Uncut Sapphire, ground into powdered form.",
+            "display_name": "Sapphire Dust"
+         },
+         "amethyst_dust": {
+            "display_name": "Amethyst Dust",
+            "description": "Uncut Amethyst, ground into powdered form."
+         },
+         "ruby_dust": {
+            "display_name": "Ruby Dust",
+            "description": "Uncut Ruby, ground into powdered form."
+         },
+         "mothers_tears": {
+            "display_name": "Mothers Tears",
+            "description": "Highly unstable alchemical compound, needed for the Decoction of the grasses."
+         },
+         "wildrye_juice": {
+            "description": "Highly unstable alchemical compound, needed for the Decoction of the grasses.",
+            "display_name": "Wildrye Juice"
+         },
+         "speargrass_sap": {
+            "display_name": "Speargrass Sap",
+            "description": "Highly unstable alchemical compound, needed for the Decoction of the grasses."
+         },
+         "paper": {
+            "display_name": "Paper",
+            "description": "sheets of paper, ready to write on."
+         },
+         "silver_plate": {
+            "display_name": "Silver Plate",
+            "description": "A Silver Plate"
+         },
+         "leather_strip": {
+            "display_name": "Leather Strip",
+            "description": "A strip of leather, used to make other items."
+         }
+      },
+      "gizmos": {
+         "dummy_training": {
+            "dummy_training_ghost": {
+               "display_name": "Training Dummy",
+               "description": "Use this to practice fighting"
+            }
+         },
+         "camp_standard_witcher": {
+            "camp_standard_witcher_ghost": {
+               "display_name": "Runestone",
+               "description": "As of yet, unimbued with power"
+            }
+         },
+         "town_banner_witcher_bear": {
+            "town_banner_witcher_bear_ghost": {
+               "display_name": "Place of Power",
+               "description": "A runestone imbued with elemental magic."
+            }
+         },
+         "town_banner_witcher_cat": {
+            "town_banner_witcher_cat_ghost": {
+               "display_name": "Place of Power",
+               "description": "A runestone imbued with elemental magic."
+            }
+         },
+         "town_banner_witcher_manticore": {
+            "town_banner_witcher_manticore_ghost": {
+               "display_name": "Place of Power",
+               "description": "A runestone imbued with elemental magic."
+            }
+         }
+      },
+      "furniture": {
+         "mutation_table": {
+            "mutation_table_ghost": {
+               "display_name": "Mutation Table",
+               "description": "Sturdy, cold and sterile. Used in mutation processes. Or as a bed for the more specialised sort of user."
+            }
+         }
+      },
+      "jobs": {
+         "witcher": {
+            "witcher_talisman": {
+               "display_name": "Decoction of the grasses.",
+               "description": "Used to create a witcher from an initiate ready for the path."
+            }
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "menu": {
+            "zone_menu": {
+               "items": {
+                  "create_farm": {
+                     "required_job_text": "Requires an Acolyte"
+                  }
+               }
+            },
+            "crafter_menu": {
+               "items": {
+                  "herbalist": {
+                     "display_name": "Mage Aspirant Craft Menu",
+                     "required_job_text": "Requires a Mage Aspirant"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

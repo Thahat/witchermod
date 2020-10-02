@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(paper.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 9,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.refined.paper.display_name)",
+         "description": "i18n(witchermod:entities.refined.paper.description)",
+         "icon": "file(paper.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": ["paper", "resource", "refined", "refined_paper", "stockpile_refined_weaver"]
+      }
+   }
+}

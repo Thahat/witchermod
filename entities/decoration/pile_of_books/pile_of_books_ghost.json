@@ -1,0 +1,25 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(pile_of_books.qb)"
+				]
+			}
+		},
+      "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+			}
+		},
+		"entity_data": {
+			"stonehearth:catalog": {
+				"display_name": "i18n(witchermod:entities.decoration.pile_of_books_ghost.display_name)",
+				"description": "i18n(witchermod:entities.decoration.pile_of_books_ghost.description)",
+				"icon": "file(pile_of_books.png)",
+				"category": "decoration",
+				"material_tags": "fiber decoration stockpile_decoration crafted"
+		}
+	}
+}

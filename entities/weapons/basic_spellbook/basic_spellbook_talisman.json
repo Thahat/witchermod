@@ -1,0 +1,44 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(basic_spellbook_iconic.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "witchermod:jobs:mage"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.weapons.basic_spellbook.basic_spellbook_talisman.display_name)",
+         "description": "i18n(witchermod:entities.weapons.basic_spellbook.basic_spellbook_talisman.description)",
+         "icon": "file(basic_spellbook.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": [
+            "paper",
+            "ranged_weapon",
+            "crafted",
+            "stockpile_tool"
+         ]
+      }
+   }
+}

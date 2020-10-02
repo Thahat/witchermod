@@ -1,0 +1,11 @@
+{
+	"constants": {
+		"equipment": {
+			"SLOT_TO_BONE_MAP": {
+				"maribor_forest" : "pelvis",
+				"swallow" : "pelvis",
+				"thunderbolt" : "pelvis"
+			}
+		}
+	}
+}

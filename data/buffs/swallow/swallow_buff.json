@@ -1,0 +1,24 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.swallow.swallow_buff.display_name)",
+   "description": "i18n(witchermod:data.buffs.swallow.swallow_buff.description)",
+   "effect": "stonehearth:effects:buff:hothead",
+   "icon": "file(swallow_buff.png)",
+   "duration": "40m",
+   "persistent": false,
+   "cooldown_buff": "witchermod:buffs:swallow:cooldown",
+   "modifiers": {
+      "courage": {
+         "add": 50
+      }
+   },
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": 12,
+      "is_percentage": true,
+      "pulse": "5m",
+      "pulse_immediately": true,
+      "pulse_on_destroy": false
+   }
+}

@@ -1,0 +1,159 @@
+{
+   "type": "index",
+   "random_pets": [],
+   "loadouts": {
+      "deep_woods": {
+         "ordinal": 1,
+         "alias": "witchermod:data:loadouts:deep_woods",
+         "display_name": "i18n(witchermod:data.loadouts.deep_woods.display_name)",
+         "description": "i18n(witchermod:data.loadouts.deep_woods.description)",
+         "tooltip": "i18n(witchermod:data.loadouts.deep_woods.tooltip)",
+         "splash": "/witchermod/data/loadouts/images/deep_woods/splash.png",
+         "seal": "/witchermod/data/loadouts/images/deep_woods/seal.png",
+         "content": {
+            "mage": {
+               "ordinal": 0.1,
+               "display_name": "i18n(witchermod:jobs.mage.mage_description.display_name)",
+               "type": "entity",
+               "uri": "witchermod:mage:talisman",
+               "icon": "/witchermod/entities/weapons/basic_spellbook/basic_spellbook.png",
+               "amount": 1
+            },
+            "berries": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/berry_basket.png",
+               "amount": 20
+            },
+            "carrots": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth:data.loadouts.items.carrots)",
+               "type": "entity",
+               "uri": "stonehearth:food:carrot:carrot_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/carrot_basket.png",
+               "amount": 10
+            },
+            "jerky": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+               "type": "entity",
+               "uri": "stonehearth:rabbit_jerky",
+               "icon": "/stonehearth/data/loadouts/images/items/jerky.png",
+               "amount": 10
+            },
+            "gold": {
+               "ordinal": 5,
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "/stonehearth/data/loadouts/images/items/gold.png",
+               "uri": "stonehearth:loot:gold",
+               "amount": 10
+            }
+         }
+      },
+      "cold_lands": {
+         "ordinal": 1,
+         "alias": "witchermod:data:loadouts:cold_lands",
+         "display_name": "i18n(witchermod:data.loadouts.cold_lands.display_name)",
+         "description": "i18n(witchermod:data.loadouts.cold_lands.description)",
+         "tooltip": "i18n(witchermod:data.loadouts.cold_lands.tooltip)",
+         "splash": "/witchermod/data/loadouts/images/cold_lands/splash.png",
+         "seal": "/witchermod/data/loadouts/images/cold_lands/seal.png",
+         "content": {
+            "mage": {
+               "ordinal": 0.1,
+               "display_name": "i18n(witchermod:jobs.mage.mage_description.display_name)",
+               "type": "entity",
+               "uri": "witchermod:mage:talisman",
+               "icon": "/witchermod/entities/weapons/basic_spellbook/basic_spellbook.png",
+               "amount": 1
+            },
+            "berries": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/berry_basket.png",
+               "amount": 20
+            },
+            "carrots": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth:data.loadouts.items.carrots)",
+               "type": "entity",
+               "uri": "stonehearth:food:carrot:carrot_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/carrot_basket.png",
+               "amount": 10
+            },
+            "jerky": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+               "type": "entity",
+               "uri": "stonehearth:rabbit_jerky",
+               "icon": "/stonehearth/data/loadouts/images/items/jerky.png",
+               "amount": 10
+            },
+            "gold": {
+               "ordinal": 5,
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "/stonehearth/data/loadouts/images/items/gold.png",
+               "uri": "stonehearth:loot:gold",
+               "amount": 10
+            }
+         }
+      },
+      "hot_sands": {
+         "ordinal": 1,
+         "alias": "witchermod:data:loadouts:hot_sands",
+         "display_name": "i18n(witchermod:data.loadouts.hot_sands.display_name)",
+         "description": "i18n(witchermod:data.loadouts.hot_sands.description)",
+         "tooltip": "i18n(witchermod:data.loadouts.hot_sands.tooltip)",
+         "splash": "/witchermod/data/loadouts/images/hot_sands/splash.png",
+         "seal": "/witchermod/data/loadouts/images/hot_sands/seal.png",
+         "content": {
+            "mage": {
+               "ordinal": 0.1,
+               "display_name": "i18n(witchermod:jobs.mage.mage_description.display_name)",
+               "type": "entity",
+               "uri": "witchermod:mage:talisman",
+               "icon": "/witchermod/entities/weapons/basic_spellbook/basic_spellbook.png",
+               "amount": 1
+            },
+            "berries": {
+               "ordinal": 2,
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/berry_basket.png",
+               "amount": 20
+            },
+            "carrots": {
+               "ordinal": 3,
+               "display_name": "i18n(stonehearth:data.loadouts.items.carrots)",
+               "type": "entity",
+               "uri": "stonehearth:food:carrot:carrot_basket",
+               "icon": "/stonehearth/data/loadouts/images/items/carrot_basket.png",
+               "amount": 10
+            },
+            "jerky": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+               "type": "entity",
+               "uri": "stonehearth:rabbit_jerky",
+               "icon": "/stonehearth/data/loadouts/images/items/jerky.png",
+               "amount": 10
+            },
+            "gold": {
+               "ordinal": 5,
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "/stonehearth/data/loadouts/images/items/gold.png",
+               "uri": "stonehearth:loot:gold",
+               "amount": 10
+            }
+         }
+      }
+   }
+}

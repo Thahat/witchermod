@@ -1,0 +1,68 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:archer": {
+         "description": "witchermod:jobs:archer"
+      },
+	  "stonehearth:jobs:blacksmith": {
+         "description": "witchermod:jobs:blacksmith"
+      },
+	  "stonehearth:jobs:carpenter": {
+         "description": "witchermod:jobs:carpenter"
+      },
+	  "stonehearth:jobs:cleric": {
+         "description": "witchermod:jobs:cleric"
+      },
+	  "stonehearth:jobs:cook": {
+         "description": "witchermod:jobs:cook"
+      },
+	  "stonehearth:jobs:engineer": {
+         "description": "witchermod:jobs:engineer"
+      },
+	  "stonehearth:jobs:farmer": {
+         "description": "witchermod:jobs:farmer"
+      },
+	  "stonehearth:jobs:footman": {
+         "description": "witchermod:jobs:footman"
+      },
+	  "witchermod:jobs:initiate": {
+         "description": "witchermod:jobs:initiate"
+      },
+	  "stonehearth:jobs:geomancer": {
+         "description": "witchermod:jobs:geomancer"
+      },
+	  "stonehearth:jobs:herbalist": {
+         "description": "witchermod:jobs:herbalist"
+      },
+	  "stonehearth:jobs:knight": {
+         "description": "witchermod:jobs:knight"
+      },
+	  "stonehearth:jobs:mason": {
+         "description": "witchermod:jobs:mason"
+	  },
+	  "stonehearth:jobs:potter": {
+         "description": "witchermod:jobs:potter"
+	  },
+	  "stonehearth:jobs:shepherd": {
+         "description": "witchermod:jobs:shepherd"
+      },
+	  "stonehearth:jobs:trapper": {
+         "description": "witchermod:jobs:trapper"
+      },
+	  "stonehearth:jobs:weaver": {
+         "description": "witchermod:jobs:weaver"
+      },
+	  "stonehearth:jobs:worker": {
+         "description": "witchermod:jobs:worker"
+      },
+	  "stonehearth_ace:jobs:brewer": {
+		"description": "witchermod:jobs:brewer"
+	  },	  
+	  "witchermod:jobs:mage": {
+		"description": "witchermod:jobs:mage"
+	  },
+	  "witchermod:jobs:witcher": {
+		"description": "witchermod:jobs:witcher"
+	  }
+   }
+}

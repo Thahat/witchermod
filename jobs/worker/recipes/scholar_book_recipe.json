@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(witchermod:jobs.carpenter.recipes.herbalist_book_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.carpenter.recipes.herbalist_book_recipe.description)",
+   "flavor": "",
+   "portrait": "/witchermod/jobs/herbalist/herbalist_book/herbalist_book.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "witchermod:refined:paper",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:herbalist:talisman"
+      }
+   ]
+}

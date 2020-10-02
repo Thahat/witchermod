@@ -1,0 +1,6 @@
+{
+	"mixins": [
+      "witchermod:jobs:mage"
+   ],
+   "enabled": false
+}

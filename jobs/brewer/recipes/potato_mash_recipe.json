@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.cook.recipes.potato_mash_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.cook.recipes.potato_mash_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.cook.recipes.potato_mash_recipe.flavor)",
+   "portrait": "/witchermod/entities/drink/potato_mash/potato_mash.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth_ace:brewer:kettle",
+   "ingredients": [
+      {
+         "material": "raw_food potato",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:drink:potato_mash"
+      }
+   ]
+}

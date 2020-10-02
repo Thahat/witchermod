@@ -1,0 +1,79 @@
+{
+   "mixins": "/stonehearth/entities/humans/male/male_1.json",
+     "components": {
+		"model_variants": {
+         "default": {
+			"mixintypes" :{
+				"models": "override"
+			},
+            "models": [
+               "file(head.qb)",
+               "file(body.qb)",
+               "stonehearth/entities/humans/male/eyes.qb"
+            ]
+         }
+      }
+	 },
+	 "entity_data": {
+      "stonehearth:customization_variants": {
+         "customization_options": "/witchermod/entities/humans/male/male_customizations.json",
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "black": 2,
+                     "brown": 1,
+                     "red": 1,
+                     "sandy": 1,
+                     "blonde": 3,
+                     "platinum": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "white": 1
+                  }
+               },
+               "eye_color": {
+                  "weights": {
+                     "blue": 2,
+                     "green": 2,
+                     "hazel": 1
+                  }
+               }
+            },
+            "young": {
+               "eyebrows": {
+                  "weights": {
+				  "[none]": 0,
+                  "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                  }
+               }
+            },
+            "old": {
+               "eyebrows": {
+                  "weights": {
+                     "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                  }
+               }
+            }
+         }
+      }
+   }
+}

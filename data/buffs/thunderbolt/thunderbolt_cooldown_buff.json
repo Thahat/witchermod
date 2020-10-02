@@ -1,0 +1,11 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.thunderbolt.cooldown.display_name)",
+   "description": "i18n(witchermod:data.buffs.thunderbolt.cooldown.description)",
+   "icon": "file(thunderbolt_cooldown_buff.png)",
+   "duration": "40m",
+   "persistent": true,
+   "repeat_add_action": "renew_duration",
+   "modifiers": {}
+}

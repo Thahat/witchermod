@@ -1,0 +1,241 @@
+{
+   "type": "kingdom",
+   "display_name": "i18n(witchermod:data.population.witchermod.display_name)",
+   "kingdom_id": "witchermod",
+   "favored_biome": "stonehearth:biome:temperate",
+   "quote": "i18n(witchermod:data.population.witchermod.quote)",
+   "description": "i18n(witchermod:data.population.witchermod.description)",
+   "post_selection_description": "i18n(witchermod:data.population.witchermod.post_selection_description)",
+   "image": "/witchermod/data/images/witchermod_400x300.png",
+   "story_board_image": "/witchermod/data/images/witchermod_story_board_image.png",
+   "starting_talisman": "stonehearth:carpenter:talisman",
+   "starting_resource": "stonehearth:resources:wood:oak_log",
+   "job_index": "witchermod:jobs:index",
+   "traits_index": "witchermod:traits_index",
+   "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+   "initial_town_name": "i18n(witchermod:data.population.witchermod.initial_town_name)",
+   "camp_standard": "witchermod:camp_standard_witcher",
+   "trappable_animals": "stonehearth:data:trapping:all_trappable_animals",
+   "default_material": "wood_resource",
+   "ordinal": 2.1,
+   "loadouts": "/witchermod/data/loadouts/loadouts.json",
+   "roles": {
+      "default": {
+         "male": {
+            "uri": [
+               "witchermod:male_1"
+            ],
+            "given_names": [
+               "Adalbert",
+               "Adam",
+               "Angus",
+               "Alvin",
+               "Geralt",
+               "Philip",
+               "Lambert",
+               "Eskel",
+               "Vernon",
+               "Leo",
+               "Berengar",
+               "Boholt",
+               "Conrad",
+               "Franz",
+               "Roland",
+               "Siegfried",
+               "Golan",
+               "Thaler",
+               "Leonard",
+               "Wolfgang",
+               "Letho",
+               "Karel"
+            ]
+         },
+         "male_2": {
+            "uri": [
+               "witchermod:male_1"
+            ],
+            "given_names": [
+               "Adalbert",
+               "Adam",
+               "Angus",
+               "Alvin",
+               "Geralt",
+               "Philip",
+               "Lambert",
+               "Eskel",
+               "Vernon",
+               "Leo",
+               "Berengar",
+               "Boholt",
+               "Conrad",
+               "Franz",
+               "Roland",
+               "Siegfried",
+               "Golan",
+               "Thaler",
+               "Leonard",
+               "Wolfgang",
+               "Letho",
+               "Karel"
+            ]
+         },
+         "male_3": {
+            "uri": [
+               "witchermod:male_1"
+            ],
+            "given_names": [
+               "Adalbert",
+               "Adam",
+               "Angus",
+               "Alvin",
+               "Geralt",
+               "Philip",
+               "Lambert",
+               "Eskel",
+               "Vernon",
+               "Leo",
+               "Berengar",
+               "Boholt",
+               "Conrad",
+               "Franz",
+               "Roland",
+               "Siegfried",
+               "Golan",
+               "Thaler",
+               "Leonard",
+               "Wolfgang",
+               "Letho",
+               "Karel"
+            ]
+         },
+         "male_4": {
+            "uri": [
+               "witchermod:male_1"
+            ],
+            "given_names": [
+               "Adalbert",
+               "Adam",
+               "Angus",
+               "Alvin",
+               "Geralt",
+               "Philip",
+               "Lambert",
+               "Eskel",
+               "Vernon",
+               "Leo",
+               "Berengar",
+               "Boholt",
+               "Conrad",
+               "Franz",
+               "Roland",
+               "Siegfried",
+               "Golan",
+               "Thaler",
+               "Leonard",
+               "Wolfgang",
+               "Letho",
+               "Karel"
+            ]
+         },
+         "female": {
+            "uri": [
+               "witchermod:female_1"
+            ],
+            "given_names": [
+               "Adda",
+               "Abigail",
+               "Alina",
+               "Antoinette",
+               "Yeneffer",
+               "Shani",
+               "Cirilla",
+               "Triss",
+               "Philippa"
+            ]
+         },
+         "surnames": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "of Rivia",
+            "of Vengerberg",
+            "of Maribor"
+         ],
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 5,
+               "max": 9
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 2,
+                  "max": 6
+               },
+               "body": {
+                  "min": 2,
+                  "max": 6
+               },
+               "spirit": {
+                  "min": 1,
+                  "max": 6
+               }
+            }
+         }
+      }
+   },
+   "pet_names": {
+      "default": [
+         "Roach"
+      ],
+      "racoon": [
+         "racoon"
+      ],
+      "red_fox_wolf": [
+         "Red fox"
+      ],
+      "rabbit": [
+         "rabbit"
+      ],
+      "squirrel": [
+         "squirrel"
+      ],
+      "beetle": [
+         "beetle"
+      ],
+      "bitsy_ant": [
+         "Ant"
+      ],
+      "doodles": [
+         "IDK what this is man"
+      ]
+   },
+   "town_pieces": {
+      "optional_prefix": [],
+      "town_name": [
+         "Kaer"
+      ],
+      "suffix": [
+         " Morhen",
+         " trolde",
+         " Almhult",
+         " Carreg",
+         " Dhu",
+         " Nyssen",
+         " Seren",
+         " Gvaed",
+         " Grimmdjarr",
+         " Rocayne",
+         " Tuirseach",
+         " Nastrog",
+         " Narakort",
+         " Kilkerinn",
+         " Arthach",
+         " Arnskrone",
+         " Amavet"
+      ]
+   },
+   "task_groups": "stonehearth:data:player_task_groups"
+}

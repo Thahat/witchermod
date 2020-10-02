@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.pile_of_books_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.pile_of_books_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.pile_of_books_recipe.flavor)",
+   "portrait": "/witchermod/entities/decoration/pile_of_books/pile_of_books.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "witchermod:refined:paper",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:decoration:pile_of_books"
+      }
+   ]
+}

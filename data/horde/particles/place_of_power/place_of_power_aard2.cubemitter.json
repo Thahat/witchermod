@@ -1,0 +1,97 @@
+{
+   "name": "aard_blue",
+   "duration": 22500,
+   "material": "materials/cubemitter.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "witchermod/data/models/vfx/signs/aard.qb",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "max_particles": 1,
+   "emission": {
+      "rate": {
+         "kind": "constant",
+         "values": [
+            [1]
+         ]
+      },
+      "angle": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "origin": {
+         "surface": "POINT",
+         "values": {
+            "surface": "POINT"
+         }
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [22500]
+         }
+      },
+	  "speed": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.00]
+         },
+		  "over_lifetime": {
+            "kind": "CONSTANT",
+            "values": [0.25]
+         }
+      },
+	  "rotation": {
+	     "over_lifetime_y": {
+            "kind": "CURVE",
+            "values": [
+               [
+                  0,
+                  0
+               ],
+               [
+                  1,
+                  720
+               ]
+			 ]
+         }
+      }, 
+      "scale": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.135]
+         },
+         "over_lifetime": {
+            "kind": "CONSTANT",
+            "values": [0.135]
+         }
+      },
+	  "color": {
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.569, 0.544, 0.522],
+               [0.15, 0.296, 0.645, 0.676],
+			   [0.85, 0.296, 0.645, 0.676],
+			   [1, 0.569, 0.544, 0.522]
+            ]
+         },
+		 "over_lifetime_a": {
+		    "kind": "CURVE",
+			"values": [
+			 [0, 0],
+			 [0.05, 0.55],
+			 [0.95, 0.55],
+			 [1, 0]
+			]
+         }
+      }
+   }
+}

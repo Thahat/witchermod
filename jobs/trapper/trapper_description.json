@@ -1,0 +1,5 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:trapper",
+   "enabled": false
+}

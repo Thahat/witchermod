@@ -1,0 +1,13 @@
+{
+   "type": "ai_pack",
+   "actions": [
+      "witchermod:actions:combat:attack:acolyte_ranged:from_current_location",
+      "witchermod:actions:combat:attack:acolyte_ranged:move_to_targetable_location",
+      "witchermod:actions:combat:attack:acolyte_ranged:path_to_target",
+      "witchermod:actions:combat:attack:acolyte_ranged",
+   ],
+   "observers": [],
+   "ai_packs": [
+      "stonehearth:ai_pack:combat"
+   ]
+}

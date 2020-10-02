@@ -1,0 +1,16 @@
+{
+   "crops_by_kingdom": {
+      "witchermod:kingdoms:witcher_kingdom": {
+         "fallow": true,
+         "turnip": true,
+		 "carrot": true,
+		 "potatoes": true,
+		 "cabbage": true,
+		 "onion": true,
+         "silkweed": true,
+         "brightbell": true,
+         "wheat": true,
+         "pine_tree": true
+		}
+	}
+}

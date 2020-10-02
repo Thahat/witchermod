@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "color_map": "stonehearth:color_map:magic",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/magic_material_map.json"
+         ],
+		 "scale": 0.07
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mothers_tears.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.refined.mothers_tears.display_name)",
+         "description": "i18n(witchermod:entities.refined.mothers_tears.description)",
+         "icon": "file(mothers_tears.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": [
+            "mothers_tears",
+            "alchemy",
+            "resource",
+            "stockpile_refined_craftable"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": -1
+      }
+   }
+}

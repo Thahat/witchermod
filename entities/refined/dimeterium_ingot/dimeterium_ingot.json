@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "material": "materials/shiny.material.json"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dimeterium_ingot.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.refined.dimeterium_ingot.display_name)",
+         "description": "i18n(witchermod:entities.refined.dimeterium_ingot.description)",
+         "icon": "file(dimeterium_ingot.png)",
+         "is_item": true,
+         "category": "refined",
+         "material_tags": [
+            "stockpile_refined_ore",
+            "dimeterium",
+            "ingot",
+            "resource",
+            "stockpile_refined_craftable"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      }
+   }
+}

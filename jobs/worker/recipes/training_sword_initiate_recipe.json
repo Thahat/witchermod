@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(witchermod:jobs.carpenter.recipes.training_sword_initiate_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.carpenter.recipes.training_sword_initiate_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.carpenter.recipes.training_sword_initiate_recipe.flavor)",
+   "portrait": "/witchermod/entities/weapons/training_sword_initiate/training_sword_initiate.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:initiate:talisman"
+      }
+   ]
+}

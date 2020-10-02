@@ -1,0 +1,14 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:cook",
+   "parent_job": "stonehearth:jobs:worker",
+   "equipment": {
+      "mixintypes": {
+         "helmet": "remove"
+      },
+      "torso": "file(cook_outfit)"
+   },
+   "crafter": {
+      "recipe_list": "/witchermod/jobs/cook/recipes/recipes.json"
+   }
+}

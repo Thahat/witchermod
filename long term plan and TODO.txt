@@ -1,0 +1,72 @@
+
+For both: adjust fuel requiring recipes...
+-----------nordlings:-----------
+adjust shield on wall collision boxes.
+possibly re-try the wall hanging shield thing again.
+-possibly invert tents position so people sleep to the outside? might be more cosey?
+wooden fire wood holders like the ACE metal ones
+
+
+------witcher to do/fix:-----------
+- check if workers level
+	- check their skillset on levelup and fix up what is needed
+	
+-worker abillities are currently invisible. check nordlingmod for fix?	
+
+-initiate and witcher helmets still WIP, recipes need to be done.
+
+-doublecheck if initaites have building AI?
+
+-change initiate description to explain they do the trapping.
+
+-in promotion tree it still says worker instead of acolyte?
+
+-possibly for the mage, some way do do research? recipe that takes nothing and gives nothing at his table? see if there is a reading anim somewhere?
+
+-might want to put mages behind a questline eventually.
+
+-change recipe requirements from mage items
+
+-add fibre drop to destruction of training dummy? or alternatively, easier acces to fibre for all? treebark fibre?
+
+-Hair: rivian ponytail?
+
+-move gem crushing to blacksmith
+
+need flavor text for:
+pile_of_books
+mage_workbench
+pile_of_scrolls
+potion_rack
+alchemy_kit
+alchemy_kit 2
+crystal_ball
+cat school armour basic, advanced and master
+bear school armour basic, advanced and master
+manticore school armour basic, advanced and master
+bronze/steel/ sword witcher
+dimeterium_ingot
+bronze/iron/steel/silver/dimeterium plate (a component/ingredient)
+paper
+
+what vegatables do i want?
+potatoes
+onions
+cabbage
+garlic!
+
+monsters:
+succubus quest? take hearthling away...and sometimes bring them back(exhaussted but happy).
+sometimes not(sucks for you, shouldnt have sent out a ling with a succubus :P).
+
+also: find out how bruno did the goblin wiki?
+----------------------------------
+possible risky witcher transformation:
+
+Dani, Master Yolomancervandaag om 20:41 7 sept 2020
+Well, ACE can sort it out 
+next version will come with a buff functionality that basically gives you the option to have a timer every X time try to apply an Y buff with a Z chance (from another buff)
+
+so you could have a buff for the transformation process that once expired could apply a different buff (the full witcher benefits buff) ((base game functionality)
+
+but then you have the ACE functionality have a X chance to apply the "failure" buff before the timer expires, that failure buff could "remove" the process buff and just be a permanently quick damage over time buff that will cause them to despair and die

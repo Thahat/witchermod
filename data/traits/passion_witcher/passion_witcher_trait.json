@@ -1,0 +1,16 @@
+{
+   "type": "trait",
+   "mixins": "stonehearth:mixins:traits:passion_job",
+   "icon": "file(passion_witcher_trait.png)",
+   "data": {
+      "job_uri": "witchermod:jobs:witcher"
+   },
+   "subject_overrides": [
+      {
+         "subject": "witchermod:witcher:talisman",
+         "sentiment": 1,
+         "permanent": true,
+         "unvarying": true
+      }
+   ]
+}

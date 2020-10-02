@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(training_sword_initiate.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.weapons.training_sword_initiate.training_sword_initiate_iconic.display_name)",
+         "description": "i18n(witchermod:entities.weapons.training_sword_initiate.training_sword_initiate_iconic.description)",
+         "icon": "file(training_sword_initiate.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": [
+            "wood",
+            "melee_weapon"
+         ]
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 3,
+   "recipe_name": "i18n(witchermod:jobs.mage.recipes.witcher_talisman_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.mage.recipes.witcher_talisman_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.mage.recipes.witcher_talisman_recipe.flavor)",
+   "portrait": "/witchermod/jobs/witcher/witcher_talisman/witcher_talisman.png",
+   "workshop": "witchermod:mage:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "witchermod:refined:wildrye_juice",
+         "count": 1
+      },
+	  {
+         "uri": "witchermod:refined:speargrass_sap",
+         "count": 1
+      },
+	  {
+         "uri": "witchermod:refined:mothers_tears",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:witcher:talisman"
+      }
+   ]
+}

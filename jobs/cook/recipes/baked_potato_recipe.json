@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 13,
+   "work_units": 1,
+   "recipe_name": "i18n(witchermod:jobs.cook.recipes.baked_potato_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.cook.recipes.baked_potato_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.cook.recipes.baked_potato_recipe.flavor)",
+   "portrait": "/witchermod/entities/food/baked_potato/baked_potato/baked_potato.png",
+   "workshop": "stonehearth:cook:oven",
+   "work_effect": "work_cook_dough",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "item": "witchermod:food:potato:potato_basket",
+         "count": 1
+      },
+      {
+         "material": "low_fuel",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:food:baked_potato"
+      }
+   ]
+}

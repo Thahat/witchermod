@@ -1,0 +1,28 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(witchermod:jobs.carpenter.recipes.paper_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.carpenter.recipes.paper_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.carpenter.recipes.paper_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/paper/paper.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:paper"
+      },
+	  {
+         "item": "witchermod:refined:paper"
+      },
+	  {
+         "item": "witchermod:refined:paper"
+      }
+   ]
+}

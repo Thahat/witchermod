@@ -1,0 +1,64 @@
+{
+   "mixins": [
+      "/stonehearth/jobs/geomancer/recipes/geomancer_recipes.json"
+   ],
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.workbenches_name)",
+         "recipes": {
+            "mage_workbench": {
+               "recipe": "file(mage_workbench_recipe.json)"
+            }
+         }
+      },
+      "tools": {
+         "ordinal": 10,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",
+         "recipes": {
+            "witcher_talisman": {
+               "recipe": "file(witcher_talisman_recipe.json)"
+            }
+         }
+      },
+      "refinement": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.refined_name)",
+         "recipes": {
+            "mothers_tears": {
+               "recipe": "file(mothers_tears_recipe.json)"
+            },
+			"speargrass_sap": {
+               "recipe": "file(speargrass_sap_recipe.json)"
+            },
+			"wildrye_juice": {
+               "recipe": "file(wildrye_juice_recipe.json)"
+            }
+         }
+      },
+      "decorations": {
+         "ordinal": 80,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.decorations_name)",
+         "recipes": {
+            "pile_of_scrolls": {
+               "recipe": "file(pile_of_scrolls_recipe.json)"
+            },
+			"pile_of_books": {
+               "recipe": "file(pile_of_books_recipe.json)"
+            },
+			"crystal_ball": {
+               "recipe": "file(crystal_ball_recipe.json)"
+            },
+			"alchemy_kit": {
+               "recipe": "file(alchemy_kit_recipe.json)"
+            },
+			"alchemy_kit_2": {
+               "recipe": "file(alchemy_kit_2_recipe.json)"
+            },
+			"potion_rack": {
+               "recipe": "file(potion_rack_recipe.json)"
+            }
+         }
+      }
+   }
+}

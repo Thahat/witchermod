@@ -1,0 +1,71 @@
+{
+   "mixins": [
+      "/stonehearth/jobs/carpenter/recipes/recipes.json",
+      "/stonehearth/jobs/mason/recipes/recipes.json",
+      "/stonehearth/jobs/potter/recipes/recipes.json",
+      "/stonehearth/jobs/weaver/recipes/recipes.json"
+   ],
+   "craftable_recipes": {
+      "workbenches": {},
+      "legendary": {},
+      "storage": {},
+      "furniture": {},
+      "building_parts": {},
+      "utility": {
+         "recipes": {
+            "mixintypes": {
+               "training_dummy": "remove",
+               "training_target": "remove",
+               "stone_training_dummy": "remove",
+               "stone_training_target": "remove",
+               "clay_training_dummy": "remove",
+               "clay_training_target": "remove"
+            },
+            "training_dummy_witcher": {
+               "recipe": "file(training_dummy_recipe.json)"
+            }
+         }
+      },
+      "armor": {
+         "mixintypes": {
+            "recipes": "override"
+         },
+         "recipes": {}
+      },
+      "clothing_armor": {},
+      "tools": {
+         "mixintypes": {
+            "recipes": "override"
+         },
+         "recipes": {
+            "mixintypes": {
+               "potter_cutter": "remove",
+               "trapper_knife": "remove"
+            },
+            "herbalist_staff": {
+               "recipe": "file(scholar_book_recipe.json)"
+            },
+            "brewer_tumbler": {
+               "recipe": "file(brewer_tumbler_recipe.json)"
+            },
+            "wooden_sword_witcher": {
+               "recipe": "file(training_sword_initiate_recipe.json)"
+            }
+         }
+      },
+      "refined": {},
+      "weapons": {
+         "recipes": {
+            "mixintypes": {
+               "stone_hatchet": "remove",
+               "cloth_padded_helmet": "remove",
+               "chitin_armor": "remove",
+               "chitin_helm": "remove",
+               "leather_helmet": "remove",
+               "cloth_padded_vest": "remove"
+            }
+         }
+      },
+      "signage_decoration": {}
+   }
+}

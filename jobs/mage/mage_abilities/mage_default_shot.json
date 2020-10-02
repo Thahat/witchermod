@@ -1,0 +1,17 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "witchermod:combat:acolyte_ranged_attacks": [
+         {
+            "name": "aspirant_default_shot",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

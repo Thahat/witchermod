@@ -1,0 +1,11 @@
+
+{
+   "entity_data": {
+      "stonehearth:consumable": {
+             "script": "sotw:consumables:scripts:heal_target",
+             "health_healed": 0.5,
+             "is_percentage": true,
+             "minimum_health_healed": 150
+      }
+   }
+}

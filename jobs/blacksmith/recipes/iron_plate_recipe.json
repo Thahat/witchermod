@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 25,
+   "recipe_name": "i18n(witchermod:jobs.blacksmith.recipes.iron_plate_recipe.recipe_name)",
+   "description": "i18n(witchermod:jobs.blacksmith.recipes.iron_plate_recipe.description)",
+   "flavor": "i18n(witchermod:jobs.blacksmith.recipes.iron_plate_recipe.flavor)",
+   "portrait": "/witchermod/entities/refined/iron_plate/iron_plate.png",
+   "workshop": "stonehearth:blacksmith:forge",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "witchermod:refined:iron_plate"
+      },
+      {
+         "item": "witchermod:refined:iron_plate"
+      }
+   ]
+}

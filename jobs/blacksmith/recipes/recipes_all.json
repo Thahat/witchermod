@@ -1,0 +1,26 @@
+{
+	"craftable_recipes": {
+		"refined": {
+			"recipes": {
+				"diamond_dust": {
+					"recipe": "file(diamond_dust_recipe.json)"
+				},
+				"amethyst_dust": {
+					"recipe": "file(amethyst_dust_recipe.json)"
+				},
+				"dimeterium_dust": {
+					"recipe": "file(dimeterium_dust_recipe.json)"
+				},
+				"emerald_dust": {
+					"recipe": "file(emerald_dust_recipe.json)"
+				},
+				"ruby_dust": {
+					"recipe": "file(ruby_dust_recipe.json)"
+				},
+				"sapphire_dust": {
+					"recipe": "file(sapphire_dust_recipe.json)"
+				}
+			}
+		}
+	}
+}

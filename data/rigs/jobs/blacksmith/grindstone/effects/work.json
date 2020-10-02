@@ -1,0 +1,38 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "work.json",
+         "loop": true
+       },
+	   "sparks_down": {
+         "type": "cubemitter",
+         "cubemitter": "/smithingplus/data/horde/particles/fire/grinder_sparks.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":1.5,
+            "z":0.0,
+            "rx":-42,
+            "ry":0,
+          "rz": 0
+            }
+         },
+      "sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 200,
+         "min_distance": 35,
+         "falloff": 4,
+         "volume": 60,
+        "track": "stonehearth:sounds:herbalist_grind_07"
+      },
+      "light": {
+         "type": "light",
+         "light": "animatedlights/lamp/lamp.animatedlight.json",
+         "transforms": { "x": 0, "y": 1.1, "z": 0 }
+      }	  
+   }
+}

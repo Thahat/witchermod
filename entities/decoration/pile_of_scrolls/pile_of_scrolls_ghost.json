@@ -1,0 +1,25 @@
+{
+	"mixins": "stonehearth:mixins:placed_object",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(pile_of_scrolls.qb)"
+				]
+			}
+		},
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 }
+			}
+		},
+		"entity_data": {
+			"stonehearth:catalog": {
+				"display_name": "i18n(witchermod:entities.decoration.pile_of_scrolls_ghost.display_name)",
+				"description": "i18n(witchermod:entities.decoration.pile_of_scrolls_ghost.description)",
+				"icon": "file(pile_of_scrolls.png)",
+				"category": "decoration",
+				"material_tags": "fiber decoration stockpile_decoration crafted"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"jobs": {
+		"nordlingmod:jobs:ruler": {
+			"description": "/witchermod/jobs/ruler/ruler_description.json"
+		}
+	}
+}

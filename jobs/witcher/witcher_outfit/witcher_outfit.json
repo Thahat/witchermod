@@ -1,0 +1,47 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(witcher_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(witcher_outfit_female.qb)"
+            ]
+         },
+         "orc_male": {
+            "layer": "clothing",
+            "models": [
+               "/stonehearth/jobs/footman/footman_outfit/footman_outfit_orc_male.qb"
+            ]
+         },
+         "orc_female": {
+            "layer": "clothing",
+            "models": [
+               "/stonehearth/jobs/footman/footman_outfit/footman_outfit_orc_female.qb"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:jobs.witcher.witcher_outfit.display_name)",
+         "description": "i18n(witchermod:jobs.witcher.witcher_outfit.description)",
+         "icon": "file(witcher_outfit.png)"
+      }
+   }
+}

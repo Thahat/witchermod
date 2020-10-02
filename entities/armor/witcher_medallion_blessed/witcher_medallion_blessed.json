@@ -1,0 +1,67 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:light_armor_helmet",
+      "stonehearth_ace:mixins:armor:resistance:helmet:legendary"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(witcher_medallion_blessed.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(witcher_medallion_blessed_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(witcher_medallion_blessed_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 6,
+         "required_job_level": 0,
+         "roles": [
+            "witcher_job"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 110,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(witchermod:entities.armor.witcher_medallion_blessed.display_name)",
+         "description": "i18n(witchermod:entities.armor.witcher_medallion_blessed.description)",
+         "icon": "file(witcher_medallion_blessed.png)",
+         "category": "armor",
+         "material_tags": [
+            "steel",
+            "armor",
+            "helmet",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

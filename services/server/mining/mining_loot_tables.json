@@ -1,0 +1,253 @@
+{
+   "type": "index",
+   "mineable_blocks": {
+      "grass": {
+         "entries": {
+            "default": {
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 100
+                  }
+               }
+            }
+         }
+      },
+      "dirt": {
+         "entries": {
+            "default": {
+               "items": {
+				   "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 0.1
+                  }
+               }
+            }
+         }
+      },
+      "rock": {
+         "entries": {
+            "default": {
+               "items": {
+				   "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 2
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      },
+      "copper_ore": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      },
+      "tin_ore": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      },
+      "iron_ore": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      },
+      "coal": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }		   
+            }
+         }
+      },
+      "silver_ore": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:gems:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      },
+      "gold_ore": {
+         "entries": {
+            "default": {
+               "items": {
+				  "dimeterium": {
+                     "uri": "witchermod:resources:ore:dimeterium_ore",
+                     "weight": 1
+                  },
+				  "amethyst": {
+                     "uri": "witchermod:resources:gems:amethyst",
+                     "weight": 1
+                  },
+				  "diamond": {
+                     "uri": "witchermod:resources:gems:diamond:",
+                     "weight": 1
+                  },
+				  "emerald": {
+                     "uri": "witchermod:resources:gems:emerald",
+                     "weight": 1
+                  },
+				  "ruby": {
+                     "uri": "witchermod:resources:gems:ruby",
+                     "weight": 1
+                  },
+				  "sapphire": {
+                     "uri": "witchermod:resources:gems:sapphire",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

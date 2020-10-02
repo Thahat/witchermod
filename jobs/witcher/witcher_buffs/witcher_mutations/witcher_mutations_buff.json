@@ -1,0 +1,33 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(witchermod:data.buffs.witcher_resist.witcher_resist_buff.display_name)",
+   "description": "i18n(witchermod:data.buffs.witcher_resist.witcher_resist_buff.description)",
+   "icon": "/witchermod/jobs/witcher/images/witcher_mutations.png",
+   "repeat_add_action": "renew_duration",
+   "disallowed_buffs": [
+      "stonehearth_ace:buffs:bee_attack",
+      "stonehearth_ace:buffs:bee_attack:swarmed",
+      "stonehearth_ace:buffs:poison:minor_poison",
+      "stonehearth_ace:buffs:poison:major_poison",
+      "stonehearth_ace:buffs:poison:poison",
+      "stonehearth_ace:buffs:toxin:sleeping",
+      "stonehearth_ace:buffs:weather:sunstroke",
+      "stonehearth_ace:buffs:weather:freezing",
+	  "stonehearth_ace:buffs:consumption:light_headed",
+	  "stonehearth_ace:buffs:consumption:quite_woozy",
+	  "stonehearth:buffs:consumption:morning_after",
+	  "stonehearth:buffs:consumption:upset_belly"
+   ],
+   "modifiers": {
+      "willpower": {
+         "add": 50
+      },
+      "diligence": {
+         "add": 50
+      },
+	  "properties": [
+      "cannot_panic"
+      ]
+   }
+}

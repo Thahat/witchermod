@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "neutral",
+   "display_name": "i18n(witchermod:data.buffs.swallow.cooldown.display_name)",
+   "description": "i18n(witchermod:data.buffs.swallow.cooldown.description)",
+   "icon": "file(swallow_cooldown_buff.png)",
+   "duration": "40m",
+   "persistent": true,
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+   }
+}
