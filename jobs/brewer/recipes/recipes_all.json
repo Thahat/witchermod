@@ -1,0 +1,18 @@
+{
+	"craftable_recipes": {
+		"ingredients": {
+			"recipes": {
+				"potato_mash": {
+					"recipe": "/witchermod/jobs/brewer/recipes/potato_mash_recipe.json"
+				}
+			}
+		},
+		"alcoholic_drinks": {
+			"recipes": {
+				"spirit_vodka": {
+					"recipe": "/witchermod/jobs/brewer/recipes/spirit_vodka_recipe.json"
+				}
+			}
+		}
+   }
+}

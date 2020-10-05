@@ -209,7 +209,8 @@
       "stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes_all.json)",
       "stonehearth/jobs/mason/recipes/recipes.json": "file(jobs/mason/recipes/recipes_all.json)",
       "stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes_all.json)",
-      "/nordlingmod/data/gm/campaigns/free_ruler_talisman/free_ruler_talisman.json": "/witchermod/data/gm/campaigns/free_ruler_talisman/free_ruler_talisman.json",
+      "stonehearth_ace/jobs/brewer/recipes/recipes.json" : "file(jobs/brewer/recipes/recipes_all.json)",
+	  "/nordlingmod/data/gm/campaigns/free_ruler_talisman/free_ruler_talisman.json": "/witchermod/data/gm/campaigns/free_ruler_talisman/free_ruler_talisman.json",
       "/stonehearth/data/gm/campaigns/trader/trader_campaign.json": "/witchermod/data/gm/campaigns/trader/trader_campaign.json"
       
    },

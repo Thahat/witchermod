@@ -8,7 +8,10 @@
                "stonehearth:ai_pack:patrolling",
                "stonehearth:ai_pack:wimpy",
                "stonehearth:ai_pack:panic:flee",
-               "stonehearth:ai_pack:combat_control"
+               "stonehearth:ai_pack:combat_control",
+			   "stonehearth:ai_pack:place_item",
+			   "stonehearth:ai_pack:construction",
+			   "stonehearth:ai_pack:ladders",
             ]
          },
          "injected_buffs": [

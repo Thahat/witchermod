@@ -17,6 +17,7 @@
 		"stonehearth_ace/data/ui/start_menu.json" : "witchermod/data/ui/start_menu_ace_compatabillity.json"
    },
    "overrides" : {
+		"stonehearth/ui/game/modes/zones_mode/farm/farm.js": "file(game/modes/zones_mode/farm/farm.js)",
 		"stonehearth/ui/game/start_menu/images/dock.png": "file(game/start_menu/images/dock.png)",
 		"stonehearth/ui/game/character_sheets/citizen_character_sheet/images/glass.png" : "file(game/character_sheets/citizen_character_sheet/images/glass.png)",
 		"stonehearth/ui/game/create_camp/images/banner.png" : "file(create_camp/banner.png)",

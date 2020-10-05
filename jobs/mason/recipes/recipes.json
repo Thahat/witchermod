@@ -1,5 +1,23 @@
 {
-   "mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
+   "mixins": [
+		"/stonehearth/jobs/mason/recipes/recipes.json"
+	],
    "craftable_recipes": {
+	"weapons": {
+		"recipes": {
+			"mixintypes": {
+				"stone_maul": "remove",
+				"stone_hatchet": "remove"
+			}
+		}
+	},
+	"utility": {
+		"recipes": {
+            "mixintypes": {
+				"stone_training_dummy": "remove",
+               "stone_training_target": "remove"
+			}
+		}
+	}
    }
 }

@@ -26,7 +26,9 @@
                "witchermod:male_1"
             ],
             "given_names": [
-               "Adalbert",
+               "Axel",
+			   "Atlan",
+			   "Adalbert",
                "Adam",
                "Angus",
                "Alvin",
@@ -39,94 +41,9 @@
                "Berengar",
                "Boholt",
                "Conrad",
+			   "Dagobert",
                "Franz",
-               "Roland",
-               "Siegfried",
-               "Golan",
-               "Thaler",
-               "Leonard",
-               "Wolfgang",
-               "Letho",
-               "Karel"
-            ]
-         },
-         "male_2": {
-            "uri": [
-               "witchermod:male_1"
-            ],
-            "given_names": [
-               "Adalbert",
-               "Adam",
-               "Angus",
-               "Alvin",
-               "Geralt",
-               "Philip",
-               "Lambert",
-               "Eskel",
-               "Vernon",
-               "Leo",
-               "Berengar",
-               "Boholt",
-               "Conrad",
-               "Franz",
-               "Roland",
-               "Siegfried",
-               "Golan",
-               "Thaler",
-               "Leonard",
-               "Wolfgang",
-               "Letho",
-               "Karel"
-            ]
-         },
-         "male_3": {
-            "uri": [
-               "witchermod:male_1"
-            ],
-            "given_names": [
-               "Adalbert",
-               "Adam",
-               "Angus",
-               "Alvin",
-               "Geralt",
-               "Philip",
-               "Lambert",
-               "Eskel",
-               "Vernon",
-               "Leo",
-               "Berengar",
-               "Boholt",
-               "Conrad",
-               "Franz",
-               "Roland",
-               "Siegfried",
-               "Golan",
-               "Thaler",
-               "Leonard",
-               "Wolfgang",
-               "Letho",
-               "Karel"
-            ]
-         },
-         "male_4": {
-            "uri": [
-               "witchermod:male_1"
-            ],
-            "given_names": [
-               "Adalbert",
-               "Adam",
-               "Angus",
-               "Alvin",
-               "Geralt",
-               "Philip",
-               "Lambert",
-               "Eskel",
-               "Vernon",
-               "Leo",
-               "Berengar",
-               "Boholt",
-               "Conrad",
-               "Franz",
+			   "Lawbor",
                "Roland",
                "Siegfried",
                "Golan",
@@ -150,7 +67,8 @@
                "Shani",
                "Cirilla",
                "Triss",
-               "Philippa"
+               "Philippa",
+			   "Vanille"
             ]
          },
          "surnames": [
@@ -160,6 +78,10 @@
             "",
             "",
             "",
+			"of Murivel",
+			"Kerk",
+			"Rabi",
+			"of Brugge",
             "of Rivia",
             "of Vengerberg",
             "of Maribor"

@@ -8,14 +8,16 @@ wooden fire wood holders like the ACE metal ones
 
 
 ------witcher to do/fix:-----------
-- check if workers level
-	- check their skillset on levelup and fix up what is needed
-	
--worker abillities are currently invisible. check nordlingmod for fix?	
 
--initiate and witcher helmets still WIP, recipes need to be done.
+-nordlingmod biome doesnt currently get ACE herbs, important! fix first!
 
--doublecheck if initaites have building AI?
+-remove brewer talisman from herbalist
+
+-shift tonics from herbalist to mage
+
+-Altar of the elements to make the witcher medallions with (crafting table) braziers on both sides, stone altar., some candles on top.
+
+-initiate and witcher helmets still WIP, recipes need to be done. especially metal and steel
 
 -change initiate description to explain they do the trapping.
 
@@ -23,15 +25,15 @@ wooden fire wood holders like the ACE metal ones
 
 -possibly for the mage, some way do do research? recipe that takes nothing and gives nothing at his table? see if there is a reading anim somewhere?
 
--might want to put mages behind a questline eventually.
-
 -change recipe requirements from mage items
-
--add fibre drop to destruction of training dummy? or alternatively, easier acces to fibre for all? treebark fibre?
 
 -Hair: rivian ponytail?
 
--move gem crushing to blacksmith
+-might want to put mages behind a questline eventually.???
+
+-give witcher crafting, remove patroll. have them make traps, and witcher specific usable potions.
+
+-
 
 need flavor text for:
 pile_of_books
@@ -70,3 +72,21 @@ next version will come with a buff functionality that basically gives you the op
 so you could have a buff for the transformation process that once expired could apply a different buff (the full witcher benefits buff) ((base game functionality)
 
 but then you have the ACE functionality have a X chance to apply the "failure" buff before the timer expires, that failure buff could "remove" the process buff and just be a permanently quick damage over time buff that will cause them to despair and die
+
+----------------------------------
+
+special issue witcher potions:
+
+speaking of potions, are there also caryable potions that triggers on -enemy- parameters?
+like only use if enemy has more than X health?
+or only use if enemy has Y tag?
+if not, id like to suggest those use cases
+example would be a potion that would make you temporarilly immune to poison(against poisonous enemies), or potion of frenzy? that improves your dps temporarilly against big foes like trolls
+something like that
+Dani, Master Yolomancervandaag om 18:57
+the current system doesn't support that, however the current system supports using a potion when you have a certain buff
+so let me get you a tip going:
+
+create invisible buffs that represent the different monsters/enemies that you want to trigger certain potions, and then make these enemies have 100% chance of applying that buff on attack
+then make the potions be triggered by these buffs :wink:
+

@@ -1,4 +1,7 @@
 {
+	"mixins": [
+		"/stonehearth/jobs/carpenter/recipes/recipes.json"
+	],
 	"craftable_recipes": {
 		"storage": {
 			"recipes":{

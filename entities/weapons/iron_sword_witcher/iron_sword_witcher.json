@@ -25,7 +25,7 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 16,
+         "ilevel": 27,
          "roles": ["initiate_job","witcher_job"],
          "required_job_level": 0,
          "equip_effect": "stonehearth:effects:weapon_level_up",
@@ -36,7 +36,7 @@
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 16,
+         "base_damage": 27,
          "reach": 1.5
       },
       "stonehearth:combat:melee_attacks": [

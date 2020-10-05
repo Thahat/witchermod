@@ -1,5 +1,7 @@
 {
-	"mixins": "/stonehearth/jobs/weaver/recipes/recipes.json",
+	"mixins": [
+		"/stonehearth/jobs/weaver/recipes/recipes.json"
+	],
 	"craftable_recipes": {
 		"crafting_materials": {
          "recipes": {
@@ -7,6 +9,23 @@
                "recipe": "file(leather_strip_recipe.json)"
             }
          }
-      }
+      },
+	  "weapons": {
+		"recipes": {
+			"mixintypes": {
+				"cloth_padded_vest": "remove",
+				"leather_helmet": "remove",
+				"leather_vest": "remove",
+				"simple_quiver_bolts": "remove",
+				"cloth_padded_helmet": "remove",
+				"chitin_armor": "remove",
+				"chitin_helm": "remove",
+				"chitin_shield": "remove",
+				"ornate_cleric_armor": "remove",
+				"simple_quiver": "remove",
+				"fire_quiver": "remove"
+			}
+		}
+	  }
 	}
 }
