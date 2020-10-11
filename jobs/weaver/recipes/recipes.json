@@ -24,7 +24,10 @@
 				"ornate_cleric_armor": "remove",
 				"simple_quiver": "remove",
 				"fire_quiver": "remove"
-			}
+			},
+			"shirt": {
+               "recipe": "file(shirt_recipe.json)"
+            }
 		}
 	  }
 	}

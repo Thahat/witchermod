@@ -10,6 +10,10 @@
    "level_requirement": 6,
    "ingredients": [
       {
+         "uri": "witchermod:armor:manticore_school_armor_enhanced",
+         "count": 1
+      },
+      {
          "uri": "stonehearth:refined:iron_ingot",
          "count": 2
       }

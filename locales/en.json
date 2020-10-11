@@ -449,6 +449,11 @@
                "recipe_name": "Leather Strip (x3)",
                "description": "Leather strips, usefull for a variety of useages.",
                "flavor": "Placeholder flavortext"
+            },
+            "cloth_armor_recipe": {
+               "recipe_name": "Shirt",
+               "flavor": "Flavor Placeholder",
+               "description": "Its a shirt."
             }
          }
       }
@@ -813,6 +818,10 @@
             "vodka_serving": {
                "display_name": "Vodka"
             }
+         },
+         "potato_mash": {
+            "display_name": "Potato Mash",
+            "description": "Potatoes in water, mashed. Used to make Vodka"
          }
       },
       "potion": {

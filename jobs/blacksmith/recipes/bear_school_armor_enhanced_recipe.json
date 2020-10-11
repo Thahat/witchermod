@@ -10,6 +10,18 @@
    "level_requirement": 4,
    "ingredients": [
       {
+         "uri": "witchermod:armor:bear_school_armor_basic",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
          "uri": "stonehearth:refined:iron_ingot",
          "count": 2
       }

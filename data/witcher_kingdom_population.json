@@ -51,7 +51,11 @@
                "Leonard",
                "Wolfgang",
                "Letho",
-               "Karel"
+               "Karel",
+			   "Vilgefortz",
+			   "Vizimir",
+			   "Vilibert",
+			   "Nicodemus"
             ]
          },
          "female": {
@@ -84,7 +88,9 @@
 			"of Brugge",
             "of Rivia",
             "of Vengerberg",
-            "of Maribor"
+            "of Maribor",
+			"of Redania",
+			"of Roggeveen"
          ],
          "attribute_distribution": {
             "allocated_points": {

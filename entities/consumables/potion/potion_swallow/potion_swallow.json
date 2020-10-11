@@ -7,7 +7,7 @@
       },
       "stonehearth:equipment_piece": {
          "roles": [
-            "combat"
+            "witcher_job"
          ],
          "equipment_types": [
             "combat_potion"
