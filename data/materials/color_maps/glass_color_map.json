@@ -1,8 +1,44 @@
 {
    "#DCD7C6": "stonehearth:glass:outer",
    
+   "#033604": "stonehearth:glowing",
+   "#044805": "stonehearth:glowing",
+   "#06580A": "stonehearth:glowing",
+   
+   "#2F0E10": "stonehearth:glowing",
+   "#3D1416": "stonehearth:glowing",
+   "#4A191C": "stonehearth:glowing",
+   
+   "#032440": "stonehearth:glowing",
+   "#042E52": "stonehearth:glowing",
+   "#073762": "stonehearth:glowing",
+   
+   "#125203": "stonehearth:glowing",
+   "#0E4101": "stonehearth:glowing",
+   "#0A2E00": "stonehearth:glowing",
+   
+   "#B6DAFA": "stonehearth:glowing",
+   "#A2D2FA": "stonehearth:glowing",
+   "#90C9FA": "stonehearth:glowing",
+   
+   "#5A0C5C": "stonehearth:glowing",
+   "#4B094D": "stonehearth:glowing",
+   "#3A063C": "stonehearth:glowing",
+   "#320634": "stonehearth:glowing",
+   
    "#4A191C": "stonehearth:glowing",
    "#3D1416": "stonehearth:glowing",
    "#2F0E10": "stonehearth:glowing",
-   "#290C0E": "stonehearth:glowing"
+   "#290C0E": "stonehearth:glowing",
+   
+   "#073762": "stonehearth:glowing",
+   "#042E52": "stonehearth:glowing",
+   "#032440": "stonehearth:glowing",
+   "#042038": "stonehearth:glowing",
+   
+   "#CD7517": "stonehearth:glowing",
+   "#C26F16": "stonehearth:glowing",
+   
+   "#974C0F": "stonehearth:glowing",
+   "#9C4F10": "stonehearth:glowing"
 }

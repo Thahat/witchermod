@@ -3,6 +3,9 @@
 		"/stonehearth/jobs/herbalist/recipes/recipes.json"
 	],
 	"craftable_recipes": {
+		"mixintypes": {
+			"tonics": "remove"
+		},
 		"tools": {
 			"recipes": {
 				"mixintypes": {
@@ -12,6 +15,8 @@
 					"cleric_tome_3": "remove"
 				}
 			}
+		},
+		"refinement": {
 		}
 	}
 }

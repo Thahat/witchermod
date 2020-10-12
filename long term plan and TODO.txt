@@ -9,8 +9,6 @@ wooden fire wood holders like the ACE metal ones
 
 ------witcher to do/fix:-----------
 
--nordlingmod biome doesnt currently get ACE herbs, important! fix first!
-
 -remove brewer talisman from herbalist
 
 -shift tonics from herbalist to mage
@@ -31,7 +29,7 @@ wooden fire wood holders like the ACE metal ones
 
 -might want to put mages behind a questline eventually.???
 
--give witcher crafting, remove patroll. have them make traps, and witcher specific usable potions.
+
 
 -
 
@@ -52,14 +50,23 @@ bronze/iron/steel/silver/dimeterium plate (a component/ingredient)
 paper
 
 what vegatables do i want?
-potatoes
-onions
-cabbage
 garlic!
+
+possible hearths and shrines:
+p3 ideas: legendary training equipment with regen.
+special monster trophies.
+armour stand with master grade armours
+off duty stuff, like a big still to brew stronger stuff, special forge? special alchemical thing? special herb  thingy?
+possibly missions, not need shrines
+
+
+
+
 
 monsters:
 succubus quest? take hearthling away...and sometimes bring them back(exhaussted but happy).
 sometimes not(sucks for you, shouldnt have sent out a ling with a succubus :P).
+
 
 also: find out how bruno did the goblin wiki?
 ----------------------------------

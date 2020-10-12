@@ -94,7 +94,7 @@
             "icon": "/witchermod/jobs/mage/images/mage_menu_icon.png",
             "sticky": true,
             "menu_action": "show_crafter_ui",
-            "hotkey_action": "craft:herbalist"
+            "hotkey_action": "craft:geomancer"
          },
 		 "herbalist": {
             "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.display_name)",
@@ -106,6 +106,17 @@
             "sticky": true,
             "menu_action": "show_crafter_ui",
             "hotkey_action": "craft:herbalist"
+         },
+		 "witcher": {
+            "name": "Witcher Crafting Menu",
+            "description": "Crafting recipes",
+            "class": "button",
+            "required_job": "witchermod:jobs:witcher",
+            "required_job_text": "Requires a Witcher",
+            "icon": "/witchermod/jobs/witcher/images/witcher_menu_icon.png",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:potter"
          },
 		 "cook": {
 				"icon": "/witchermod/jobs/cook/images/cook_menu_icon.png"

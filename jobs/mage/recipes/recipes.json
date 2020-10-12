@@ -12,6 +12,63 @@
             }
          }
       },
+	  "tonics": {
+         "ordinal": 60,
+         "name": "i18n(stonehearth:jobs.herbalist.recipes.tonics_name)",
+		 "recipes": {
+			"stamina_tonic": {
+               "recipe": "stonehearth/jobs/herbalist/recipes/stamina_tonic_recipe.json"
+            },
+            "strength_tonic": {
+               "recipe": "stonehearth/jobs/herbalist/recipes/strength_tonic_recipe.json"
+            },
+            "courage_tonic": {
+               "recipe": "stonehearth/jobs/herbalist/recipes/courage_tonic_recipe.json"
+            },
+            "energy_tonic": {
+               "recipe": "stonehearth/jobs/herbalist/recipes/energy_tonic_recipe.json"
+            },
+			"hearth_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/hearth_tonic_recipe.json"
+            },				
+				"cold_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/cold_tonic_recipe.json"
+            },
+				"nightsight_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/nightsight_tonic_recipe.json"
+            },
+				"curiosity_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/curiosity_tonic_recipe.json"
+            },
+				"warmth_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/warmth_tonic_recipe.json"
+            },
+				"creativity_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/creativity_tonic_recipe.json"
+            },
+				"creativity_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/creativity_tonic_2_recipe.json"
+            },
+				"water_resist_tonic": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/water_resist_tonic_recipe.json"
+            },
+				"water_resist_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/water_resist_tonic_2_recipe.json"
+            },
+				"courage_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/courage_tonic_2_recipe.json"
+            },
+				"stamina_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/stamina_tonic_2_recipe.json"
+            },
+				"strength_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/strength_tonic_2_recipe.json"
+            },
+				"energy_tonic_2": {
+               "recipe": "stonehearth_ace/jobs/herbalist/recipes/energy_tonic_2_recipe.json"
+            }				
+         }
+      },
       "tools": {
          "ordinal": 10,
          "name": "i18n(stonehearth:jobs.herbalist.recipes.tools_name)",

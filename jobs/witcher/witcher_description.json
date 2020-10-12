@@ -40,10 +40,29 @@
       "stonehearth:task_groups:build",
       "stonehearth:task_groups:placement",
 	  "stonehearth:task_groups:mining",
-      "stonehearth:task_groups:harvest"
+      "stonehearth:task_groups:harvest",
+	  "stonehearth:task_groups:crafting"
    ],
+   "crafter": {
+      "work_effect": "herbalist_grind",
+      "recipe_list": "/witchermod/jobs/witcher/recipes/recipes.json"
+   },
+   "workshop": {
+      "portrait": "stonehearth/jobs/mason/mason_workbench/mason_workbench.png",
+      "workbench_type": "stonehearth:mason:workbench",
+      "skin_class": "mason",
+      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
    "xp_rewards": {
-      "town_protection": 1
+      "town_protection": 1,
+	  "craft_level_0": 27,
+      "craft_level_1": 28,
+      "craft_level_2": 29,
+      "craft_level_3": 30,
+      "craft_level_4": 31,
+      "craft_level_5": 32,
+      "craft_level_6": 33,
    },
    "icon": "file(images/icon.png)",
    "parent_job": "witchermod:jobs:initiate",

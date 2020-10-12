@@ -600,7 +600,7 @@
          },
          "witcher_medallion_blessed": {
             "display_name": "Witcher's Medallion",
-            "description": "Vibrates in the presence of Magic and danger.",
+            "description": "A Witcher's silver mediallion, vibrates in the presence of magic and danger.",
             "witcher_medallion_blessed_iconic": {
                "display_name": "Witcher's Medallion",
                "description": "Vibrates in the presence of Magic and danger."
@@ -608,7 +608,7 @@
          },
          "witcher_medallion": {
             "display_name": "Witcher's Medallion (unpowered)",
-            "description": "A Witcher's mediallion, Not yet fully powered."
+            "description": "A Witcher's silver mediallion, Not yet empowered."
          },
          "stone_talisman": {
             "display_name": "Stone Talisman",
@@ -984,6 +984,19 @@
             "witcher_talisman": {
                "display_name": "Decoction of the grasses.",
                "description": "Used to create a witcher from an initiate ready for the path."
+            }
+         }
+      },
+      "consumables": {
+         "potion": {
+            "potion_swallow": {
+               "iconic_description": "Swallow Potion"
+            },
+            "healing": {
+               "small": {
+                  "display_name": "Swallow Potion",
+                  "description": "A strongly regenerative witcher's potion. Can only be used by Witchers"
+               }
             }
          }
       }

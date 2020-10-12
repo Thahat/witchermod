@@ -2,7 +2,14 @@
    "type": "entity",
    "mixins": "file(mage_workbench_ghost.json)",
    "components": {
-      "destination": {
+      "render_info": {
+         "color_map": "witchermod:color_map:glass",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/glass_material_map.json",
+			"/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ]
+      },
+	  "destination": {
          "region": [
             {
                "min": { "x": -1, "y": 0, "z": -1 },

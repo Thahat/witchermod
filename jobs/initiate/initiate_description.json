@@ -1,5 +1,8 @@
 {
-   "mixins": "stonehearth:jobs:footman",
+   "mixins": [
+		"stonehearth:jobs:trapper",
+		"stonehearth:jobs:footman"
+   ],
    "mixintypes": {
       "level_data": "override"
    },
@@ -16,6 +19,7 @@
    "abilities": "file(initiate_abilities)",
    "equipment": {
       "mixintypes": {
+		"helmet": "remove",
          "torso": "override",
          "mainhand": "override"
       },
@@ -59,7 +63,16 @@
    },
    "max_level": 6,
    "level_data": {
-      "1": {
+      "mixintypes": {
+			"1": "override",
+			"2": "override",
+			"3": "override",
+			"4": "override",
+			"5": "override",
+			"6": "override"
+			
+		},
+		"1": {
          "perks": [
             {
                "type": "apply_buff",

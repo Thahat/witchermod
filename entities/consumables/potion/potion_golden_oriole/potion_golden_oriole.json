@@ -3,7 +3,7 @@
    "type": "entity",
    "components": {
       "stonehearth:entity_forms": {
-         "iconic_form": "file(potion_swallow_iconic.json)"
+         "iconic_form": "file(potion_golden_oriole_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "roles": [
@@ -76,9 +76,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(witchermod:entities.consumables.potion.healing.small.display_name)",
-         "description": "i18n(witchermod:entities.consumables.potion.healing.small.description)",
-         "icon": "file(potion_swallow.png)",
+         "display_name": "i18n(witchermod:entities.consumables.potion.golden_oriole.small.display_name)",
+         "description": "i18n(witchermod:entities.consumables.potion.golden_oriole.small.description)",
+         "icon": "file(potion_golden_oriole.png)",
          "material_tags": [
             "potion",
             "combat",
