@@ -7,7 +7,7 @@
    "flavor": "i18n(witchermod:jobs.blacksmith.recipes.steel_sword_witcher.flavor)",
    "portrait": "/witchermod/entities/weapons/steel_sword_witcher/steel_sword_witcher.png",
    "workshop": "stonehearth:blacksmith:workbench",
-   "level_requirement": 3,
+   "level_requirement": 4,
    "ingredients": [
       {
          "uri": "stonehearth:refined:steel_ingot",

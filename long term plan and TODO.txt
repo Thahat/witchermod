@@ -6,18 +6,42 @@ possibly re-try the wall hanging shield thing again.
 -possibly invert tents position so people sleep to the outside? might be more cosey?
 wooden fire wood holders like the ACE metal ones
 
+need more silkweed in nordling lands
+add collor ace herb stuff to hops
 
 ------witcher to do/fix:-----------
 
+-initiate and witcher helmets still WIP, recipes need to be done. especially metal and steel
+
+-Hair: rivian ponytail?
+
+-add leather strips to sword recipes.
+
 -remove brewer talisman from herbalist
+
+-flatten xp curve when witcher kingdom is selected? possible?
+
+-turn sad albert into medic bed
 
 -shift tonics from herbalist to mage
 
 -Altar of the elements to make the witcher medallions with (crafting table) braziers on both sides, stone altar., some candles on top.
 
--initiate and witcher helmets still WIP, recipes need to be done. especially metal and steel
+
+
+
 
 -change initiate description to explain they do the trapping.
+
+-mage armour needs to not dissapear the body
+
+-tonics need removed from herbalist
+
+-draw hearth essence from the imbued place of power stones. use geomancer cast anim for it.
+
+-allow scholar to also make decorative books.
+
+
 
 -in promotion tree it still says worker instead of acolyte?
 
@@ -25,7 +49,7 @@ wooden fire wood holders like the ACE metal ones
 
 -change recipe requirements from mage items
 
--Hair: rivian ponytail?
+
 
 -might want to put mages behind a questline eventually.???
 
@@ -44,7 +68,6 @@ crystal_ball
 cat school armour basic, advanced and master
 bear school armour basic, advanced and master
 manticore school armour basic, advanced and master
-bronze/steel/ sword witcher
 dimeterium_ingot
 bronze/iron/steel/silver/dimeterium plate (a component/ingredient)
 paper

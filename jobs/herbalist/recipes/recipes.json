@@ -6,6 +6,11 @@
 		"mixintypes": {
 			"tonics": "remove"
 		},
+		"tonics": {
+			"recipes": {
+			
+			}
+		},
 		"tools": {
 			"recipes": {
 				"mixintypes": {

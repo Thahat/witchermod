@@ -12,37 +12,10 @@
          "equipment_types": [
             "combat_potion"
          ],
-		 "ilevel": 1
+         "ilevel": 1
       }
    },
    "entity_data": {
-      "stonehearth:consumable": {
-         "equipped_only": true,
-         "use_effect": "combat_potion",
-         "applies_effects": {
-            "stonehearth_ace:buffs:potion:cooldown": 1
-         },
-         "use_condition": {
-            "type": "and",
-            "conditions": [
-               {
-                  "type": "stonehearth:buffs",
-                  "buff_uri": "stonehearth_ace:buffs:potion:cooldown",
-                  "has_buff": false
-               }
-            ]
-         }
-      },
-	  "stonehearth:net_worth": {
-         "value_in_gold": 3,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": false,
-            "sellable": true,
-            "shopkeeper_level": 2,
-            "shopkeeper_type": "caravan"
-         }
-      },
       "stonehearth:consumable": {
          "script": "stonehearth:consumables:scripts:heal_target",
          "consumable_qualities": [
@@ -75,15 +48,25 @@
             ]
          }
       },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
       "stonehearth:catalog": {
-         "display_name": "i18n(witchermod:entities.consumables.potion.healing.small.display_name)",
-         "description": "i18n(witchermod:entities.consumables.potion.healing.small.description)",
+         "display_name": "i18n(witchermod:entities.consumables.potion.swallow.small.display_name)",
+         "description": "i18n(witchermod:entities.consumables.potion.swallow.small.description)",
          "icon": "file(potion_swallow.png)",
          "material_tags": [
             "potion",
             "combat",
             "stockpile_combat_consumable",
-			"healing",
+            "healing",
             "small"
          ]
       }

@@ -27,20 +27,10 @@
 	  "mainhand": "witchermod:weapons:training_sword_initiate"
    },
    "roles": [
-      "footman_job",
-      "cloth_wearer",
-      "leather_wearer",
-      "mail_wearer",
-      "melee_combat",
-      "combat",
-	  "trapper_job",
-	  "hunter",
 	  "initiate_job"
    ],
    "promotion_activity_name": "promote_initiate",
    "task_groups": [
-      "stonehearth:task_groups:common_tasks",
-	  "stonehearth:task_groups:trapping",
       "stonehearth:task_groups:restock",
       "stonehearth:task_groups:rescue",
       "stonehearth:task_groups:build",
@@ -48,19 +38,8 @@
       "stonehearth:task_groups:mining",
       "stonehearth:task_groups:harvest"
    ],
-   "initial_num_siege_weapons": {
-      "trap": 0
-   },
-   "xp_rewards": {
-      "town_protection": 1,
-	  "unsuccessful_trap": 5,
-      "successful_trap": 12
-   },
    "icon": "file(images/icon.png)",
    "parent_job": "stonehearth:jobs:worker",
-   "initial_num_siege_weapons": {
-      "trap": 0
-   },
    "max_level": 6,
    "level_data": {
       "mixintypes": {

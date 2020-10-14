@@ -7,7 +7,7 @@
    "flavor": "i18n(witchermod:jobs.blacksmith.recipes.bronze_sword_witcher.flavor)",
    "portrait": "/witchermod/entities/weapons/bronze_sword_witcher/bronze_sword_witcher.png",
    "workshop": "stonehearth:blacksmith:workbench",
-   "level_requirement": 3,
+   "level_requirement": 2,
    "ingredients": [
       {
          "uri": "stonehearth:refined:bronze_ingot",

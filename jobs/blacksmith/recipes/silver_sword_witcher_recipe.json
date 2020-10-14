@@ -7,7 +7,7 @@
    "flavor": "i18n(witchermod:jobs.blacksmith.recipes.silver_sword_witcher.flavor)",
    "portrait": "/witchermod/entities/weapons/silver_sword_witcher/silver_sword_witcher.png",
    "workshop": "stonehearth:blacksmith:workbench",
-   "level_requirement": 3,
+   "level_requirement": 5,
    "ingredients": [
       {
          "uri": "stonehearth:refined:silver_ingot",

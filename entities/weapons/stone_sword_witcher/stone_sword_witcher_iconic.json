@@ -8,16 +8,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(bronze_sword_witcher.qb)"
+               "file(stone_sword_witcher.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(witchermod:entities.weapons.bronze_sword_witcher.bronze_sword_witcher_iconic.display_name)",
-         "description": "i18n(witchermod:entities.weapons.bronze_sword_witcher.bronze_sword_witcher_iconic.description)",
-         "icon": "file(bronze_sword_witcher.png)",
+         "display_name": "i18n(witchermod:entities.weapons.stone_sword_witcher.stone_sword_witcher_iconic.display_name)",
+         "description": "i18n(witchermod:entities.weapons.stone_sword_witcher.stone_sword_witcher_iconic.description)",
+         "icon": "file(stone_sword_witcher.png)",
          "is_item": true,
          "category": "weapons"
       }

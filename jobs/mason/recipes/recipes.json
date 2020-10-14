@@ -18,6 +18,14 @@
                "stone_training_target": "remove"
 			}
 		}
+	},
+	"tools": {
+		"recipes": {
+			"mixintypes": {
+				"potter_cutter": "remove",
+				"trapper_knife": "remove"
+			}
+		}
 	}
    }
 }

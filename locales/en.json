@@ -265,9 +265,9 @@
                "flavor": "\"Sad albert...i didnt think we would even use this again\" -Vesemir"
             },
             "bronze_sword_witcher": {
-               "recipe_name": "Bronze Longsword",
-               "description": "A long blade made out of bronze",
-               "flavor": "Placeholder"
+               "recipe_name": "Simple Sword",
+               "description": "Its nothing fancy but it gets the job done.",
+               "flavor": "\"Why Men Throw Their Lives Away Attacking An Armed Witcher...I'll Never Know. Something About My Face?\""
             },
             "iron_sword_witcher": {
                "recipe_name": "Iron Longsword",
@@ -282,7 +282,7 @@
             "steel_sword_witcher": {
                "recipe_name": "Steel Longswod",
                "description": "A long blade made out of Steel",
-               "flavor": "placeholder"
+               "flavor": "\"I Don't Believe In Melitele, Don't Believe In Existence Of Other Gods Either...You Ask What I Believe In, In That Case. I Believe In The Sword.\" "
             },
             "dimeterium_ingot_recipe": {
                "recipe_name": "Dimeterium Ingot",
@@ -328,6 +328,11 @@
                "flavor": "flavor placeholder",
                "recipe_name": "Grandmaster Manticore-School Armour",
                "description": "Mastercrafted versatile witcher armour, favored by those of the school of the manticore"
+            },
+            "stone_sword_witcher": {
+               "recipe_name": "Old Sword",
+               "description": "Old, chipped and mostly dull.",
+               "flavor": "\"well, if slicing with it is a problem, you can always try using it as a saw in emergencies!\""
             }
          },
          "grindstone": {
@@ -462,11 +467,11 @@
       "weapons": {
          "bronze_sword_witcher": {
             "bronze_sword_witcher_iconic": {
-               "display_name": "Bronze Longsword",
-               "description": "A long blade made out of bronze"
+               "display_name": "Simple Sword",
+               "description": "Nothing fancy, but it gets the job done."
             },
-            "display_name": "Bronze Longsword",
-            "description": "A long blade made out of bronze"
+            "display_name": "Simple Sword",
+            "description": "Nothing fancy, but it gets the job done."
          },
          "iron_sword_witcher": {
             "display_name": "Iron Longsword",
@@ -531,6 +536,14 @@
             },
             "display_name": "Wooden Trainingsword",
             "description": "A simple starting weapon."
+         },
+         "stone_sword_witcher": {
+            "display_name": "Old Sword",
+            "description": "An old, chipped blade.",
+            "stone_sword_witcher_iconic": {
+               "display_name": "Old Sword",
+               "description": "An old, chipped blade. you can nearly use it as a saw!"
+            }
          }
       },
       "armor": {
@@ -996,6 +1009,12 @@
                "small": {
                   "display_name": "Swallow Potion",
                   "description": "A strongly regenerative witcher's potion. Can only be used by Witchers"
+               }
+            },
+            "swallow": {
+               "small": {
+                  "description": "A strongly regenerative witcher's potion. Can only be used by Witchers",
+                  "display_name": "Swallow Elixer"
                }
             }
          }

@@ -82,15 +82,6 @@
     },
 	"weapons": {
 	  "recipes" : {
-		"bronze_scepter" : {
-			"recipe" : "stonehearth_ace/jobs/blacksmith/recipes/bronze_scepter_recipe.json"
-		},
-		"silver_scepter" : {
-			"recipe" : "stonehearth_ace/jobs/blacksmith/recipes/silver_scepter_recipe.json"
-		},
-		"gold_scepter" : {
-			"recipe" : "stonehearth_ace/jobs/blacksmith/recipes/gold_scepter_recipe.json"
-		}
       }
 	},
 	"armor": {

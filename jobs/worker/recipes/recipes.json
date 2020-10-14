@@ -36,9 +36,6 @@
             "recipes": "override"
          },
          "recipes": {
-            "mixintypes": {
-               "trapper_knife": "remove"
-            },
             "herbalist_staff": {
                "recipe": "file(scholar_book_recipe.json)"
             },

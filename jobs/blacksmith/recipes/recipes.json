@@ -116,6 +116,9 @@
          "ordinal": 40,
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.weapons_name)",
          "recipes": {
+			"stone_sword_witcher": {
+					"recipe": "file(stone_sword_witcher_recipe.json)"
+			},
 			"bronze_sword_witcher": {
 					"recipe": "file(bronze_sword_witcher_recipe.json)"
 			},
