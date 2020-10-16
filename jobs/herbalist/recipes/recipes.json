@@ -3,12 +3,23 @@
 		"/stonehearth/jobs/herbalist/recipes/recipes.json"
 	],
 	"craftable_recipes": {
-		"mixintypes": {
-			"tonics": "remove"
-		},
 		"tonics": {
 			"recipes": {
-			
+				"mixintypes": {
+					"hearth_tonic": "remove",
+					"cold_tonic": "remove",
+					"nightsight_tonic": "remove",
+					"curiosity_tonic": "remove",
+					"warmth_tonic": "remove",
+					"creativity_tonic": "remove",
+					"creativity_tonic_2": "remove",
+					"water_resist_tonic": "remove",
+					"water_resist_tonic_2": "remove",
+					"courage_tonic_2": "remove",
+					"stamina_tonic_2": "remove",
+					"strength_tonic_2": "remove",
+					"energy_tonic_2": "remove"
+				}
 			}
 		},
 		"tools": {

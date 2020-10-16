@@ -3,6 +3,10 @@
    "styles": {
       "facial_hair": {
          "values": {
+			"beard_epic": {
+               "hidden": true,
+               "file": "file(beard_epic.qb)"
+            }
          }
       },
       "head_hair": {

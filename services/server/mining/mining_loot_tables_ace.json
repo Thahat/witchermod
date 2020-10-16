@@ -23,27 +23,27 @@
                   },
 				  "dimeterium": {
                      "uri": "witchermod:resources:ore:dimeterium_ore",
-                     "weight": 60
+                     "weight": 15
                   },
 				  "amethyst": {
                      "uri": "witchermod:resources:gems:amethyst",
-                     "weight": 1
+                     "weight": 2
                   },
 				  "diamond": {
                      "uri": "witchermod:resources:diamond:",
-                     "weight": 1
+                     "weight": 2
                   },
 				  "emerald": {
                      "uri": "witchermod:resources:gems:emerald",
-                     "weight": 1
+                     "weight": 2
                   },
 				  "ruby": {
                      "uri": "witchermod:resources:gems:ruby",
-                     "weight": 1
+                     "weight": 2
                   },
 				  "sapphire": {
                      "uri": "witchermod:resources:gems:sapphire",
-                     "weight": 1
+                     "weight": 2
                   }
                }
             }

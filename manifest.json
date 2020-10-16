@@ -204,7 +204,8 @@
       "witchermod/jobs/blacksmith/recipes/recipes.json": "stonehearth_ace/witchermod/jobs/blacksmith/recipes/recipes_ace_compatabillity.json",
       "witchermod/jobs/index.json": "nordlingmod/witchermod/jobs/index_nordlingmod.json",
       "witchermod/jobs/initiate/initiate_abilities/initiate_abilities.json": "stonehearth_ace/jobs/footman/footman_abilities/footman_abilities.json",
-      "witchermod:traits_index": "stonehearth_ace:traits_index"
+      "witchermod:traits_index": "stonehearth_ace:traits_index",
+	  "stonehearth/entities/humans/male/male_customizations.json" : "witchermod/entities/humans/male/male_customizations_all.json"
       
    },
    "overrides": {

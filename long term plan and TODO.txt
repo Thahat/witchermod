@@ -1,19 +1,21 @@
 
-For both: adjust fuel requiring recipes...
 -----------nordlings:-----------
 adjust shield on wall collision boxes.
 possibly re-try the wall hanging shield thing again.
--possibly invert tents position so people sleep to the outside? might be more cosey?
-wooden fire wood holders like the ACE metal ones
+wooden fire wood holders like the ACE metal ones > tried, failed
 
-need more silkweed in nordling lands
-add collor ace herb stuff to hops
 
 ------witcher to do/fix:-----------
 
--initiate and witcher helmets still WIP, recipes need to be done. especially metal and steel
+-give witchers heavy hp knight buff
 
--Hair: rivian ponytail?
+-Whirl seems broken
+
+-fix cancel placement icon, like with nordlings
+
+-day of mending /40 an hour hp heal seems good for swallow.
+
+-initiate and witcher helmets still WIP, recipes need to be done. especially metal and steel
 
 -add leather strips to sword recipes.
 
@@ -26,10 +28,6 @@ add collor ace herb stuff to hops
 -shift tonics from herbalist to mage
 
 -Altar of the elements to make the witcher medallions with (crafting table) braziers on both sides, stone altar., some candles on top.
-
-
-
-
 
 -change initiate description to explain they do the trapping.
 
@@ -76,6 +74,8 @@ what vegatables do i want?
 garlic!
 
 possible hearths and shrines:
+
+-need to think of 3 npc's for shrines, and one to start with.
 p3 ideas: legendary training equipment with regen.
 special monster trophies.
 armour stand with master grade armours
@@ -119,4 +119,11 @@ so let me get you a tip going:
 
 create invisible buffs that represent the different monsters/enemies that you want to trigger certain potions, and then make these enemies have 100% chance of applying that buff on attack
 then make the potions be triggered by these buffs :wink:
+
+---------------------------------
+dani:
+Also, making a quest that adds for example a female citizen shouldn't be so hard.
+What you can do is have males and females be different pops roles in the kingdom file, instead of sub genders of a single pop
+And then have male as the default pop
+Then look for orc or rabbit campaign and see how simple it is to add someone from a custom pop role
 

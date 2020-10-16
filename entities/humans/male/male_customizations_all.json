@@ -1,0 +1,14 @@
+{
+	"styles": {
+		"head_hair": {
+			"values": {
+				"rivian_ponytail": {
+					"file": "witchermod/entities/humans/male/rivian_ponytail.qb"
+				},
+				"cintrian_pendulum": {
+					"file": "witchermod/entities/humans/male/cintrian_pendulum.qb"
+				}
+			}
+		}
+	}
+}

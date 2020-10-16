@@ -51,16 +51,20 @@
                },
                "facial_hair": {
                   "weights": {
+				  
                   }
                },
                "head_hair": {
                   "weights": {
+				  "rivian_ponytail": 2,
+					 "cintrian_pendulum": 2
                   }
                }
             },
             "old": {
                "eyebrows": {
                   "weights": {
+					"[none]": 0,
                      "straight_eyebrows": 1
                   }
                },
@@ -70,6 +74,13 @@
                },
                "head_hair": {
                   "weights": {
+					"male_hair_1": 1,
+                     "male_hair_2": 1,
+                     "male_hair_3": 1,
+                     "male_hair_4": 1,
+					 "rivian_ponytail": 2,
+					 "cintrian_pendulum": 2
+					 
                   }
                }
             }

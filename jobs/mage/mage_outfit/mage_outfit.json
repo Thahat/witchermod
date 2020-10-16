@@ -13,7 +13,6 @@
          },
          "female": {
             "layer": "clothing",
-            "transparent": "false",
             "models": [
                "file(mage_outfit_female.qb)"
             ]
