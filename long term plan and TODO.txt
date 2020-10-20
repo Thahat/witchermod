@@ -51,9 +51,7 @@ wooden fire wood holders like the ACE metal ones > tried, failed
 
 -might want to put mages behind a questline eventually.???
 
-
-
--
+-removed female and gave them their own catagorie, check bottom of this file, add females via quest.
 
 need flavor text for:
 pile_of_books

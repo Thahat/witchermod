@@ -51,13 +51,13 @@
                },
                "facial_hair": {
                   "weights": {
-				  
+					"stubble": 1
                   }
                },
                "head_hair": {
                   "weights": {
 				  "rivian_ponytail": 2,
-					 "cintrian_pendulum": 2
+					 "cintrian_pendulum": 1
                   }
                }
             },
@@ -79,7 +79,7 @@
                      "male_hair_3": 1,
                      "male_hair_4": 1,
 					 "rivian_ponytail": 2,
-					 "cintrian_pendulum": 2
+					 "cintrian_pendulum": 1
 					 
                   }
                }

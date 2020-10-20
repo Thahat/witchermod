@@ -55,9 +55,49 @@
 			   "Vilgefortz",
 			   "Vizimir",
 			   "Vilibert",
-			   "Nicodemus"
+			   "Nicodemus",
+			   "Linus"
             ]
          },
+         "surnames": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+			"of Murivel",
+			"Kerk",
+			"Rabi",
+			"of Brugge",
+            "of Rivia",
+            "of Vengerberg",
+            "of Maribor",
+			"of Redania",
+			"of Roggeveen"
+         ],
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 5,
+               "max": 9
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 2,
+                  "max": 6
+               },
+               "body": {
+                  "min": 2,
+                  "max": 6
+               },
+               "spirit": {
+                  "min": 1,
+                  "max": 6
+               }
+            }
+         }
+      },
+	  "female": {
          "female": {
             "uri": [
                "witchermod:female_1"
@@ -72,7 +112,10 @@
                "Cirilla",
                "Triss",
                "Philippa",
-			   "Vanille"
+			   "Vanille",
+			   "Eureid",
+			   "Katye",
+			   "Iola"
             ]
          },
          "surnames": [

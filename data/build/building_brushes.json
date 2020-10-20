@@ -2,15 +2,15 @@
 	"always_available": {
 		"stone resource": {
 			"colors": {
-				"#81755f": {
-					"display_name": "Castle wall",
+				"#90846e": {
+					"display_name": "Castle wall light",
 					"ordinal": 50
 				},
-				"#7b6e5b": {
-					"display_name": "Castle wall light",
+				"#8d7d65": {
+					"display_name": "Castle wall",
 					"ordinal": 51
 				},
-				"#655845": {
+				"#796c54": {
 					"display_name": "Castle wall dark",
 					"ordinal": 52
 				}

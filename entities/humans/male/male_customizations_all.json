@@ -9,6 +9,13 @@
 					"file": "witchermod/entities/humans/male/cintrian_pendulum.qb"
 				}
 			}
+		},
+		"facial_hair": {
+			"values": {
+				"stubble": {
+					"file": "witchermod/entities/humans/male/stubble.qb"
+				}
+			}
 		}
 	}
 }
